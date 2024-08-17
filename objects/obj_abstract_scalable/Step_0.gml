@@ -1,4 +1,9 @@
 
+if (global.is_paused)
+{
+	return;
+}
+
 if (currently_zooming)
 {
 	if (curve_posx >= 1)
