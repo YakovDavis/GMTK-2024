@@ -45,6 +45,8 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"scr_event_triggers","path":"scripts/scr_event_triggers/scr_event_triggers.yy",},},
     {"id":{"name":"scr_resize_app","path":"scripts/scr_resize_app/scr_resize_app.yy",},},
+    {"id":{"name":"spr_test_bullet","path":"sprites/spr_test_bullet/spr_test_bullet.yy",},},
+    {"id":{"name":"spr_test_gun","path":"sprites/spr_test_gun/spr_test_gun.yy",},},
     {"id":{"name":"spr_test_scalable","path":"sprites/spr_test_scalable/spr_test_scalable.yy",},},
   ],
   "resourceType":"GMProject",
