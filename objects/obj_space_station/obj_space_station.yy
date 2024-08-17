@@ -39,7 +39,7 @@
         "GMSprite",
       ],"listItems":[],"multiselect":false,"name":"scrap_masks_texture","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_scrap_masks","path":"sprites/spr_scrap_masks/spr_scrap_masks.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_scrap_masks","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"start_station_size","filters":[],"listItems":[],"multiselect":false,"name":"start_station_size","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"2","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"orbit_margin","filters":[],"listItems":[],"multiselect":false,"name":"orbit_margin","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"50","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"orbit_margin","filters":[],"listItems":[],"multiselect":false,"name":"orbit_margin","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"10","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"rotation_speed_base","filters":[],"listItems":[],"multiselect":false,"name":"rotation_speed_base","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.0001","varType":0,},
   ],
   "resourceType":"GMObject",
