@@ -9,7 +9,7 @@ if (instance_count > 1)
 
 if (DEBUG_MODE > 1)
 {
-	show_debug_overlay(true);
+	show_debug_log(true);
 }
 
 randomize();
