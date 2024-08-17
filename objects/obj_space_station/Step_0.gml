@@ -1,6 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
-
 // Inherit the parent event
 event_inherited();
 
@@ -25,4 +22,19 @@ if (resetting)
 	gun_2.x = x + lengthdir_x(sprite_width * station_size + orbit_margin, gun_rotation + 180);
 	gun_2.y = y + lengthdir_y(sprite_width * station_size + orbit_margin, gun_rotation + 180);
 	resetting = false;
+}
+if (mouse_check_button_pressed(mb_left))
+{
+	with (gun_2)
+	{
+		event_user(1);
+	}
+}
+
+if (mouse_check_button_pressed(mb_right))
+{
+	with (gun_1)
+	{
+		event_user(1);
+	}
 }

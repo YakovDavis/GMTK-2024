@@ -2,7 +2,7 @@
 
 if (firing_delay_current <= 0)
 {
-	with (instance_create_layer(x, y, "Bullets", obj_bullet))
+	with (instance_create_layer(x, y, "Bullets", obj_bullet_friendly))
 	{
 		speed = other.firing_speed;
 		direction = other.image_angle;

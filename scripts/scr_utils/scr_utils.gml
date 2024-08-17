@@ -33,7 +33,7 @@ function toggle_game_actors_visibility(_visible)
 	{
 		visible = _visible;
 	}
-	with (obj_bullet)
+	with (obj_abstract_bullet)
 	{
 		visible = _visible;
 	}
