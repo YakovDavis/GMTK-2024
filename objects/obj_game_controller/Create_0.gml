@@ -5,7 +5,7 @@ if (instance_count > 1)
 	instance_destroy(self);
 }
 
-#macro DEBUG_MODE 1 // 0 - off, 1 - game debug options, 2 - game debug options and overlay
+#macro DEBUG_MODE 2 // 0 - off, 1 - game debug options, 2 - game debug options and overlay
 
 if (DEBUG_MODE > 1)
 {
