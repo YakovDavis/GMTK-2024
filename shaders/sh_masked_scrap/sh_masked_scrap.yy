@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"sh_masked_scrap",
+  "name":"sh_masked_scrap",
+  "parent":{
+    "name":"Shaders",
+    "path":"folders/Shaders.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}
