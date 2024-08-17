@@ -18,3 +18,23 @@ function random_range_exclude(_n1, _n2, _exclude)
 	} until _result != _exclude;
 	return _result;
 }
+
+/// @function toggle_game_actors_visibility(_visible);
+/// @param {Real} _visible 
+/// @returns {Any}
+
+function toggle_game_actors_visibility(_visible)
+{
+	with (obj_space_station)
+	{
+		visible = _visible;
+	}
+	with (obj_gun)
+	{
+		visible = _visible;
+	}
+	with (obj_bullet)
+	{
+		visible = _visible;
+	}
+}
