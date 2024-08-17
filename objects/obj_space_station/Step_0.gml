@@ -29,3 +29,18 @@ if (resetting)
 	gun_2.y = y + lengthdir_y(sprite_width * station_size + orbit_margin, gun_rotation + 180);
 	resetting = false;
 }
+if (mouse_check_button_pressed(mb_left))
+{
+	with (gun_2)
+	{
+		event_user(1);
+	}
+}
+
+if (mouse_check_button_pressed(mb_right))
+{
+	with (gun_1)
+	{
+		event_user(1);
+	}
+}
