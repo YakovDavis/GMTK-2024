@@ -50,6 +50,8 @@
     {"id":{"name":"sh_masked_scrap","path":"shaders/sh_masked_scrap/sh_masked_scrap.yy",},},
     {"id":{"name":"spr_scrap_masks","path":"sprites/spr_scrap_masks/spr_scrap_masks.yy",},},
     {"id":{"name":"spr_scrap_pile","path":"sprites/spr_scrap_pile/spr_scrap_pile.yy",},},
+    {"id":{"name":"spr_test_bullet","path":"sprites/spr_test_bullet/spr_test_bullet.yy",},},
+    {"id":{"name":"spr_test_gun","path":"sprites/spr_test_gun/spr_test_gun.yy",},},
     {"id":{"name":"spr_test_scalable","path":"sprites/spr_test_scalable/spr_test_scalable.yy",},},
   ],
   "resourceType":"GMProject",
