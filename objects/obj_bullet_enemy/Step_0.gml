@@ -1,3 +1,9 @@
+
+if (global.is_paused)
+{
+	return;
+}
+
 // Inherit the parent event
 event_inherited();
 
@@ -8,7 +14,7 @@ y + lengthdir_y(speed, image_angle), obj_space_station))
 	{
 		if (metal_amount > 0)
 		{
-			metal_amount -= other.damage;
+			metal_amount = max(metal_amount - other.damage, 0);
 			station_size = metal_to_size(metal_amount);
 			event_user(1);
 		}
