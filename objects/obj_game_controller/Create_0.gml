@@ -1,16 +1,19 @@
+#macro DEBUG_MODE 1 // 0 - off, 1 - game debug options, 2 - game debug options and overlay
+
 if (variable_global_exists("game_controller"))
 {
 	if (global.game_controller == self)
 	{
 		return;
 	}
-	show_debug_message("[obj_game_controller] Destroying extra controller");
+	if (DEBUG_MODE > 0)
+	{
+		show_debug_message("[obj_game_controller] Destroying extra controller");
+	}
 	instance_destroy(self);
 }
 
 global.game_controller = self;
-
-#macro DEBUG_MODE 1 // 0 - off, 1 - game debug options, 2 - game debug options and overlay
 
 if (DEBUG_MODE > 1)
 {
@@ -18,6 +21,9 @@ if (DEBUG_MODE > 1)
 }
 
 randomize();
+
+base_width = view_wport[0];
+base_height = view_hport[0];
 
 width = base_width;
 height = base_height;

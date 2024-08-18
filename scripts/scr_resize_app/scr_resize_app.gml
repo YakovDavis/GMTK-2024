@@ -9,12 +9,17 @@ function resize_app(_bw, _bh, _cw, _ch)
 {
 	var _aspect = (_bw / _bh);
 	
-	view_wport[0] = (_ch *_aspect);
-	view_hport[0] = _ch;
+	if ((_cw / _aspect) > _ch)
+    {
+		window_set_size((_ch *_aspect), _ch);
+    }
+	else
+    {
+		window_set_size(_cw, (_cw / _aspect));
+    }
 	
-	window_set_size(view_wport[0], view_hport[0]);
-	
-	window_center();
+	view_wport[0] = window_get_width();
+	view_hport[0] = window_get_height();
 	
 	surface_resize(application_surface, view_wport[0], view_hport[0]);
 }
