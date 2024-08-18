@@ -2,7 +2,7 @@
 
 if (variable_global_exists("game_controller"))
 {
-	if (global.game_controller == self)
+	if (global.game_controller.id == id)
 	{
 		return;
 	}
@@ -11,6 +11,7 @@ if (variable_global_exists("game_controller"))
 		show_debug_message("[obj_game_controller] Destroying extra controller");
 	}
 	instance_destroy(self);
+	return;
 }
 
 global.game_controller = self;
