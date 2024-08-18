@@ -46,3 +46,8 @@ else
 {
 	event_user(0);
 }
+
+upgrades_scroll_y = upgrades_vmargin;
+upgrades_dragging_data = 0;
+upgrades_scroll_top = upgrades_vmargin;
+upgrades_scroll_bottom = 0;
