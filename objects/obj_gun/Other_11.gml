@@ -5,7 +5,7 @@ with (instance_create_layer(x, y, "Bullets", obj_bullet_friendly))
 	speed = other.firing_speed;
 	direction = other.image_angle;
 	image_angle = direction;
-	if (double_damage)
+	if (other.double_damage)
 	{
 		damage = other.damage * 2.0;
 	}
