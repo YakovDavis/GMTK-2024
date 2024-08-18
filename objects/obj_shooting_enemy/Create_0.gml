@@ -5,4 +5,4 @@
 event_inherited();
 
 firing_delay_current = 0;
-double_damage = false;
+is_moving = true;
