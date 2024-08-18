@@ -12,3 +12,15 @@ if (os_browser != browser_not_a_browser)
 		resize_app(base_width, base_height, width, height);
 	}
 }
+
+upgrades_scroll_y += upgrades_dragging_data;
+upgrades_dragging_data *= scroll_drag;
+
+if(upgrades_scroll_y > upgrades_scroll_top)
+{
+	upgrades_scroll_y = lerp(upgrades_scroll_y, upgrades_scroll_top, 0.1);
+}
+else if(upgrades_scroll_y < -upgrades_scroll_bottom)
+{
+	upgrades_scroll_y = lerp(upgrades_scroll_y, -upgrades_scroll_bottom, 0.1);
+}

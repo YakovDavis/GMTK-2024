@@ -1,2 +1,3 @@
 
+owner = noone;
 focused = false;
