@@ -25,22 +25,3 @@ function set_station_size(_size, _change_mask)
 		event_user(1);
 	}
 }
-
-/// @function pause_game();
-/// @returns {Any}
-
-function pause_game()
-{
-	global.is_paused = true;
-	toggle_game_actors_visibility(false);
-}
-
-/// @function unpause_game();
-/// @returns {Any}
-
-function unpause_game()
-{
-	room_goto(rm_game);
-	toggle_game_actors_visibility(true);
-	global.is_paused = false;
-}
