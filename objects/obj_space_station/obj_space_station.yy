@@ -44,6 +44,7 @@
     {"$GMObjectProperty":"v1","%Name":"rotation_speed_base","filters":[],"listItems":[],"multiselect":false,"name":"rotation_speed_base","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.0001","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"max_hp","filters":[],"listItems":[],"multiselect":false,"name":"max_hp","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1000","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"metal_amount","filters":[],"listItems":[],"multiselect":false,"name":"metal_amount","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"100","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"metal_one_shot","filters":[],"listItems":[],"multiselect":false,"name":"metal_one_shot","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"5","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

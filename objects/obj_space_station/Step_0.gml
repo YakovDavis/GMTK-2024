@@ -33,7 +33,20 @@ if (mouse_check_button_pressed(mb_left))
 {
 	with (gun_2)
 	{
-		event_user(1);
+		if (firing_delay_current <= 0)
+		{
+			if (other.metal_amount > 0)
+			{
+				double_damage = false;
+				other.metal_amount -= other.metal_one_shot;
+			}
+			else
+			{
+				double_damage = true;
+				other.hp -= other.metal_one_shot;
+			}
+			event_user(1);
+		}	
 	}
 }
 
@@ -41,6 +54,19 @@ if (mouse_check_button_pressed(mb_right))
 {
 	with (gun_1)
 	{
-		event_user(1);
+		if (firing_delay_current <= 0)
+		{
+			if (other.metal_amount > 0)
+			{
+				double_damage = false;
+				other.metal_amount -= other.metal_one_shot;
+			}
+			else
+			{
+				double_damage = true;
+				other.hp -= other.metal_one_shot;
+			}
+			event_user(1);
+		}
 	}
 }
