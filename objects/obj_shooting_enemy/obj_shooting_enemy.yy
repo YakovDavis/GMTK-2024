@@ -38,8 +38,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_shooting_enemy",
-    "path":"sprites/spr_shooting_enemy/spr_shooting_enemy.yy",
+    "name":"spr_test_shooting_enemy",
+    "path":"sprites/spr_test_shooting_enemy/spr_test_shooting_enemy.yy",
   },
   "spriteMaskId":null,
   "visible":true,
