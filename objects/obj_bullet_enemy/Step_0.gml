@@ -15,16 +15,12 @@ y + lengthdir_y(speed, image_angle), obj_space_station))
 		if (global.game_controller.station_metal_amount > 0)
 		{
 			global.game_controller.station_metal_amount = max(global.game_controller.station_metal_amount - other.damage, 0);
-			station_size = metal_to_size(obj_game_controller.station_metal_amount);
-			event_user(1);
+			event_user(2);
 		}
 		else
 		{
 			hp -= other.damage;
-			if (hp <= 0)
-			{
-				//game over
-			}
+			event_user(2);
 		}
 	}
 	instance_destroy();
