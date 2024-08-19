@@ -6,3 +6,8 @@ if (global.is_paused)
 
 // Inherit the parent event
 event_inherited();
+
+if (is_emp_ed)
+{
+	return;
+}

@@ -45,6 +45,7 @@ else
 }
 
 // Setup UI vars
+global.on_button = false;
 upgrades_scroll_y = upgrades_vmargin;
 upgrades_dragging_data = 0;
 upgrades_scroll_top = upgrades_vmargin;
@@ -59,6 +60,12 @@ boss_present = false;
 current_phase_ended = false;
 next_phase_time = current_time;
 station_metal_amount = 100;
+emp_active = false;
+emp_timer = 0;
+emp_duration = 1000;
+emp_cooldown_active = false;
+emp_cooldown_timer = 0;
+emp_cooldown_duration = 1000;
 
 // Upgrade levels vars
 shield_radius_increase_level = 0;

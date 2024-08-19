@@ -103,3 +103,15 @@ function spawn_all_phase_enemies(_csv, _phase)
 	
 	return _res;
 }
+
+/// @function emp_toggle(_enable);
+/// @param {Bool} _enable
+/// @returns {Any}
+
+function emp_toggle(_enable)
+{
+	with (obj_abstract_enemy)
+	{
+		is_emp_ed = _enable;
+	}
+}

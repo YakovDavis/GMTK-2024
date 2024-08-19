@@ -67,6 +67,7 @@
     {"id":{"name":"obj_abstract_upgrade_leaf","path":"objects/obj_abstract_upgrade_leaf/obj_abstract_upgrade_leaf.yy",},},
     {"id":{"name":"obj_ace_enemy","path":"objects/obj_ace_enemy/obj_ace_enemy.yy",},},
     {"id":{"name":"obj_btn_buy_upgrade","path":"objects/obj_btn_buy_upgrade/obj_btn_buy_upgrade.yy",},},
+    {"id":{"name":"obj_btn_emp","path":"objects/obj_btn_emp/obj_btn_emp.yy",},},
     {"id":{"name":"obj_btn_exit","path":"objects/obj_btn_exit/obj_btn_exit.yy",},},
     {"id":{"name":"obj_btn_pause_main_menu","path":"objects/obj_btn_pause_main_menu/obj_btn_pause_main_menu.yy",},},
     {"id":{"name":"obj_btn_pause_resume","path":"objects/obj_btn_pause_resume/obj_btn_pause_resume.yy",},},
