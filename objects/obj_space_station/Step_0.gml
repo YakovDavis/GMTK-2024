@@ -27,6 +27,15 @@ if (resetting)
 	gun_2.rotation = gun_rotation + 180;
 	gun_2.x = x + lengthdir_x(sprite_width * 0.5 * station_size + orbit_margin, gun_rotation + 180);
 	gun_2.y = y + lengthdir_y(sprite_width * 0.5 * station_size + orbit_margin, gun_rotation + 180);
+	if (has_shields)
+	{
+		shield_1.image_angle = gun_rotation + 90;
+		shield_1.x = x + lengthdir_x(sprite_width * 0.5 * station_size + orbit_margin, gun_rotation + 90);
+		shield_1.y = y + lengthdir_y(sprite_width * 0.5 * station_size + orbit_margin, gun_rotation + 90);
+		shield_2.image_angle = gun_rotation + 270;
+		shield_2.x = x + lengthdir_x(sprite_width * 0.5 * station_size + orbit_margin, gun_rotation + 270);
+		shield_2.y = y + lengthdir_y(sprite_width * 0.5 * station_size + orbit_margin, gun_rotation + 270);
+	}
 	resetting = false;
 }
 if (mouse_check_button_pressed(mb_left))

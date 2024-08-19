@@ -7,6 +7,20 @@ if (global.is_paused)
 // Inherit the parent event
 event_inherited();
 
+var _hit_shield = instance_place(x + lengthdir_x(speed, image_angle),
+y + lengthdir_y(speed, image_angle), obj_shield);
+if (_hit_shield)
+{
+	with (_hit_shield)
+	{
+		if (is_active)
+		{
+			event_user(0);
+			instance_destroy(other);
+		}
+	}
+}
+
 if (place_meeting(x + lengthdir_x(speed, image_angle),
 y + lengthdir_y(speed, image_angle), obj_space_station))
 {
