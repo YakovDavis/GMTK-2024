@@ -4,7 +4,7 @@ current_phase = 0;
 boss_present = false;
 next_phase_time = current_time + real(enemy_phases_grid[# 8, 1]) * 1000;
 
-station_metal_amount = 10000;//real(global.game_controller.base_params_grid[# 1, 1]);
+station_metal_amount = real(global.game_controller.base_params_grid[# 1, 1]);
 
 shield_radius_increase_level = 0;
 shield_hit_absorption_level = 0;
