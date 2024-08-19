@@ -6,8 +6,3 @@ if (global.is_paused)
 
 // Inherit the parent event
 event_inherited();
-
-if (hp <= 0)
-{
-	instance_destroy();
-}
