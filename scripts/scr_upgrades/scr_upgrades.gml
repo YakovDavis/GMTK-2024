@@ -22,4 +22,12 @@ function apply_all_upgrades()
 		}
 		damage = base_damage * _damage_multiplier;
 	}
+	with (obj_space_station)
+	{
+		rotation_speed = rotation_speed_base;
+		if (global.game_controller.core_rotation_speed_level > 0)
+		{
+			rotation_speed *= 1 + 0.01 * real(global.game_controller.upgrade_params_grid[# 11, global.game_controller.cannon_shotgun_level + 2];
+		}
+	}
 }

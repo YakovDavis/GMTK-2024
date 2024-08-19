@@ -9,12 +9,12 @@ event_inherited();
 
 if (keyboard_check(ord("A")))
 {
-	gun_rotation += rotation_speed * delta_time;
+	gun_rotation += rotation_speed / station_size * delta_time;
 	resetting = true;
 }
 if (keyboard_check(ord("D")))
 {
-	gun_rotation -= rotation_speed * delta_time;
+	gun_rotation -= rotation_speed / station_size * delta_time;
 	resetting = true;
 }
 if (resetting)

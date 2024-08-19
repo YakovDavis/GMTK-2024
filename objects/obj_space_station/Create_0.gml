@@ -20,7 +20,7 @@ gun_rotation = 0;
 gun_1 = instance_create_layer(x + sprite_width * 0.5 * station_size + orbit_margin, y, "Guns", obj_gun);
 gun_2 = instance_create_layer(x - sprite_width * 0.5 * station_size - orbit_margin, y, "Guns", obj_gun);
 resetting = true;
-rotation_speed = rotation_speed_base / station_size;
+rotation_speed = rotation_speed_base;
 
 hp = max_hp;
 shield_1 = noone;
