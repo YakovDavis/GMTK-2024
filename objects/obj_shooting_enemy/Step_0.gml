@@ -1,4 +1,3 @@
-
 if (global.is_paused)
 {
 	return;
@@ -7,7 +6,7 @@ if (global.is_paused)
 // Inherit the parent event
 event_inherited();
 
-if (point_distance(x, y, obj_space_station.x, obj_space_station.y) >= attack_radius + obj_space_station.sprite_width * obj_space_station.station_size && is_moving) 
+if (point_distance(x, y, obj_space_station.x, obj_space_station.y) >= attack_radius + obj_space_station.sprite_width * obj_space_station.station_size * 0.5 && is_moving) 
 {
 	x += lengthdir_x(moving_speed * delta_time, attack_angle);
 	y += lengthdir_y(moving_speed * delta_time, attack_angle);
