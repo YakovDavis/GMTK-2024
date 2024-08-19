@@ -119,3 +119,19 @@ function emp_toggle(_enable)
 		is_emp_ed = _enable;
 	}
 }
+
+/// @function update_zoom_percentage();
+/// @returns {Any}
+
+function update_zoom_percentage()
+{
+	var _current_size = 0;
+	with (obj_space_station)
+	{
+		_current_size = sprite_width *station_size * current_scale;
+	}
+	with (obj_game_controller)
+	{
+		zoom_percent = 100 * (1 - _current_size / desired_station_size) / 2;
+	}
+}

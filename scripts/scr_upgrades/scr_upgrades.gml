@@ -33,6 +33,10 @@ function apply_all_upgrades()
 		{
 			event_user(3);
 		}
+		if (!has_2_gun && global.game_controller.cannon_extra_cannon_level > 0)
+		{
+			event_user(5);
+		}
 	}
 	with (obj_shield)
 	{

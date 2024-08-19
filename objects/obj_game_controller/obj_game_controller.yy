@@ -14,6 +14,8 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":12,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":13,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":107,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":109,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_game_controller",
@@ -54,6 +56,7 @@
     {"$GMObjectProperty":"v1","%Name":"boss_enemy","filters":[
         "GMObject",
       ],"listItems":[],"multiselect":false,"name":"boss_enemy","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"obj_shooting_enemy","path":"objects/obj_shooting_enemy/obj_shooting_enemy.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_shooting_enemy","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"desired_station_size","filters":[],"listItems":[],"multiselect":false,"name":"desired_station_size","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"200","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

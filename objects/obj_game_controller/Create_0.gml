@@ -1,4 +1,5 @@
 #macro DEBUG_MODE 1 // 0 - off, 1 - game debug options, 2 - game debug options and overlay
+#macro CHEAT_MODE true
 
 // Ensure existance of only one game controller
 if (variable_global_exists("game_controller"))
@@ -66,6 +67,7 @@ emp_duration = 1000;
 emp_cooldown_active = false;
 emp_cooldown_timer = 0;
 emp_cooldown_duration = 1000;
+zoom_percent = 20;
 
 // Upgrade levels vars
 shield_radius_increase_level = 0;

@@ -22,10 +22,10 @@ else
 {
 	with(obj_space_station)
 	{
-		if (metal_amount > 0)
+		if (metal_content > 0)
 		{
-			metal_amount = max(metal_amount - other.damage, 0);
-			station_size = metal_to_size(metal_amount);
+			metal_content = max(metal_content - other.damage, 0);
+			station_size = metal_to_size(metal_content);
 			event_user(1);
 		}
 		else
