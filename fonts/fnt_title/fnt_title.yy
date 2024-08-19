@@ -110,7 +110,7 @@
     "9647":{"character":9647,"h":23,"offset":3,"shift":16,"w":10,"x":95,"y":77,},
   },
   "hinting":0,
-  "includeTTF":false,
+  "includeTTF":true,
   "interpreter":0,
   "italic":false,
   "kerningPairs":[],
@@ -138,6 +138,6 @@
     "name":"Default",
     "path":"texturegroups/Default",
   },
-  "TTFName":"",
+  "TTFName":"E:\\Library\\Documents\\GameMakerStudio2\\GMTK2024\\fonts\\fnt_title\\Teko-VariableFont_wght.ttf",
   "usesSDF":false,
 }

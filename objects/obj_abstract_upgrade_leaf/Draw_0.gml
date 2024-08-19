@@ -24,7 +24,7 @@ draw_text(x - sprite_width / 2 + text_hmargin, y + sprite_height - text_vmargin,
 
 draw_set_colour(c_white);
 
-if (buy_button == noone)
+if (is_max_level)
 {
 	draw_sprite(max_level_sprite, 0, buy_button_x, buy_button_y);
 }

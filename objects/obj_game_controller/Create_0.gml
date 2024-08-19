@@ -58,6 +58,7 @@ current_phase_enemies = [];
 boss_present = false;
 current_phase_ended = false;
 next_phase_time = current_time;
+station_metal_amount = 100;
 
 // Upgrade levels vars
 shield_radius_increase_level = 0;
@@ -67,6 +68,7 @@ cannon_damage_increase_level = 0;
 cannon_shotgun_level = 0;
 cannon_homing_level = 0;
 cannon_vampiric_level = 0;
+cannon_extra_cannon_level = 0;
 emp_duration_increase_level = 0;
 emp_cooldown_decrease_level = 0;
 core_metal_gain_level = 0;

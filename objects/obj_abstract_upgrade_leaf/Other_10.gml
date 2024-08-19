@@ -1,12 +1,13 @@
 /// @description Buy button event
 
-/* if (!is_max_level)
+if (!is_max_level)
 {
-	if (global.game_controller.metal_amount >= upgrade_price)
+	if (global.game_controller.station_metal_amount >= upgrade_price)
 	{
-		global.game_controller.metal_amount -= upgrade_price;
+		global.game_controller.station_metal_amount -= upgrade_price;
 		level += 1;
 		event_user(2);
+		event_user(1);
 	}
 	else
 	{
@@ -16,18 +17,23 @@
 else
 {
 	return;
-}*/
-
-if (level >= max_level)
-{
-	level = max_level;
-	is_max_level = true;
 }
 
 if (is_max_level)
 {
-	if (buy_button != noone)
+	if (instance_exists(buy_button))
 	{
 		instance_destroy(buy_button);
+		buy_button = noone;
+	}
+}
+else
+{
+	if (instance_exists(buy_button))
+	{
+		with (buy_button)
+		{
+			event_user(0);
+		}
 	}
 }
