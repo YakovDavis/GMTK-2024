@@ -7,6 +7,10 @@ if (room == rm_game)
 	{
 		event_user(1);
 	}
+	else
+	{
+		apply_all_upgrades();
+	}
 	global.is_paused = false;
 }
 else if (room == rm_menu || room == rm_settings)

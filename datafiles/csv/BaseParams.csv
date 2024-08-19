@@ -15,3 +15,13 @@ Kamikaze enemy hp,10
 Gun base damage,3
 Gun firing delay,10
 Gun bullet speed,10
+Shotgun cone half-angle,15
+Regular enemy metal contents,20
+Kamikaze enemy metal contents,30
+Ace enemy metal contents,40
+Ace enemy firing delay,100
+Ace enemy bullet speed,10
+Ace enemy attack radius,50
+Ace enemy bullet damage,10
+Ace enemy moving speed,0.0005
+Ace enemy hp,10

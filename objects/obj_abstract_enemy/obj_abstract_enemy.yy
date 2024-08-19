@@ -35,6 +35,7 @@
     {"$GMObjectProperty":"v1","%Name":"max_hp","filters":[],"listItems":[],"multiselect":false,"name":"max_hp","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"10","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"damage","filters":[],"listItems":[],"multiselect":false,"name":"damage","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"10","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"moving_speed","filters":[],"listItems":[],"multiselect":false,"name":"moving_speed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.0005","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"base_metal_content","filters":[],"listItems":[],"multiselect":false,"name":"base_metal_content","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"20","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

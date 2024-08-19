@@ -117,7 +117,7 @@
     {"id":{"name":"scr_event_triggers","path":"scripts/scr_event_triggers/scr_event_triggers.yy",},},
     {"id":{"name":"scr_metal_to_size","path":"scripts/scr_metal_to_size/scr_metal_to_size.yy",},},
     {"id":{"name":"scr_resize_app","path":"scripts/scr_resize_app/scr_resize_app.yy",},},
-    {"id":{"name":"scr_upgrade_ui","path":"scripts/scr_upgrade_ui/scr_upgrade_ui.yy",},},
+    {"id":{"name":"scr_upgrades","path":"scripts/scr_upgrades/scr_upgrades.yy",},},
     {"id":{"name":"scr_utils","path":"scripts/scr_utils/scr_utils.yy",},},
     {"id":{"name":"sh_masked_scrap","path":"shaders/sh_masked_scrap/sh_masked_scrap.yy",},},
     {"id":{"name":"spr_ace_enemy","path":"sprites/spr_ace_enemy/spr_ace_enemy.yy",},},
