@@ -25,3 +25,6 @@ Ace enemy attack radius,50
 Ace enemy bullet damage,10
 Ace enemy moving speed,0.0005
 Ace enemy hp,10
+EMP cost,50
+EMP base duration,2000
+EMP base cooldown,10000

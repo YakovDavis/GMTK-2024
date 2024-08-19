@@ -29,44 +29,48 @@ if (resetting)
 	gun_2.y = y + lengthdir_y(sprite_width * 0.5 * station_size + orbit_margin, gun_rotation + 180);
 	resetting = false;
 }
-if (mouse_check_button_pressed(mb_left))
-{
-	with (gun_2)
-	{
-		if (firing_delay_current <= 0)
-		{
-			if (global.game_controller.station_metal_amount > 0)
-			{
-				double_damage = false;
-				global.game_controller.station_metal_amount -= other.metal_one_shot;
-			}
-			else
-			{
-				double_damage = true;
-				other.hp -= other.metal_one_shot;
-			}
-			event_user(1);
-		}	
-	}
-}
 
-if (mouse_check_button_pressed(mb_right))
+if (!global.on_button)
 {
-	with (gun_1)
+	if (mouse_check_button_pressed(mb_left))
 	{
-		if (firing_delay_current <= 0)
+		with (gun_2)
 		{
-			if (global.game_controller.station_metal_amount > 0)
+			if (firing_delay_current <= 0)
 			{
-				double_damage = false;
-				global.game_controller.station_metal_amount -= other.metal_one_shot;
-			}
-			else
+				if (global.game_controller.station_metal_amount > 0)
+				{
+					double_damage = false;
+					global.game_controller.station_metal_amount -= other.metal_one_shot;
+				}
+				else
+				{
+					double_damage = true;
+					other.hp -= other.metal_one_shot;
+				}
+				event_user(1);
+			}	
+		}
+	}
+	
+	if (mouse_check_button_pressed(mb_right))
+	{
+		with (gun_1)
+		{
+			if (firing_delay_current <= 0)
 			{
-				double_damage = true;
-				other.hp -= other.metal_one_shot;
+				if (global.game_controller.station_metal_amount > 0)
+				{
+					double_damage = false;
+					global.game_controller.station_metal_amount -= other.metal_one_shot;
+				}
+				else
+				{
+					double_damage = true;
+					other.hp -= other.metal_one_shot;
+				}
+				event_user(1);
 			}
-			event_user(1);
 		}
 	}
 }

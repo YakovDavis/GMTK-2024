@@ -1,5 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
 
 damage = real(global.game_controller.base_params_grid[# 1, 24]);
 firing_delay = real(global.game_controller.base_params_grid[# 1, 21]);

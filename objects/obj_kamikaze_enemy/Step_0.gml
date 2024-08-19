@@ -1,6 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
-
 
 if (global.is_paused)
 {
@@ -9,6 +6,11 @@ if (global.is_paused)
 
 // Inherit the parent event
 event_inherited();
+
+if (is_emp_ed)
+{
+	return;
+}
 
 if (!place_meeting(x + lengthdir_x(moving_speed * delta_time, image_angle),
 y + lengthdir_y(moving_speed * delta_time, image_angle), obj_space_station))

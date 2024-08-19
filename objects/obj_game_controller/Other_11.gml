@@ -3,6 +3,7 @@
 current_phase = 0;
 boss_present = false;
 next_phase_time = current_time + real(enemy_phases_grid[# 8, 1]) * 1000;
+emp_active = false;
 
 station_metal_amount = real(global.game_controller.base_params_grid[# 1, 1]);
 

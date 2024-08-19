@@ -1,4 +1,5 @@
 
+global.on_button = false;
 upgrades_scroll_y = upgrades_vmargin;
 
 if (room == rm_game)

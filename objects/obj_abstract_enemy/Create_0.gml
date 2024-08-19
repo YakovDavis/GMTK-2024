@@ -7,4 +7,6 @@ image_angle = attack_angle;
 
 hp = max_hp;
 
+is_emp_ed = false;
+
 metal_content = base_metal_content;
