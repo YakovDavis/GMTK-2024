@@ -1,6 +1,17 @@
-/// @description Setup (override (put inherited after)!)
+/// @description Setup (inherit (put inherited after)!)
 
-if (DEBUG_MODE > 1)
+if (instance_exists(buy_button))
 {
-	show_debug_message("[obj_abstract_upgrade_leaf] Upgrade setup event not overriden");
+	if (is_max_level)
+	{
+		instance_destroy(buy_button);
+	}
+	else
+	{
+		with (buy_button)
+		{
+			upgrade_price = other.upgrade_price;
+			event_user(0);
+		}
+	}
 }

@@ -145,9 +145,10 @@
     {"roomId":{"name":"ParticalTest","path":"rooms/ParticalTest/ParticalTest.yy",},},
     {"roomId":{"name":"rm_upgrade","path":"rooms/rm_upgrade/rm_upgrade.yy",},},
     {"roomId":{"name":"rm_settings","path":"rooms/rm_settings/rm_settings.yy",},},
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"rm_pause","path":"rooms/rm_pause/rm_pause.yy",},},
     {"roomId":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"ParticalTest","path":"rooms/ParticalTest/ParticalTest.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
