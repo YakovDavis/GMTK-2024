@@ -6,7 +6,7 @@
   "name":"obj_upgrade_cannons_damage",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_abstract_upgrade_leaf","path":"objects/obj_abstract_upgrade_leaf/obj_abstract_upgrade_leaf.yy",},"propertyId":{"name":"upgrade_display_name","path":"objects/obj_abstract_upgrade_leaf/obj_abstract_upgrade_leaf.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Damage",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_abstract_upgrade_leaf","path":"objects/obj_abstract_upgrade_leaf/obj_abstract_upgrade_leaf.yy",},"propertyId":{"name":"upgrade_desc","path":"objects/obj_abstract_upgrade_leaf/obj_abstract_upgrade_leaf.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Do more damage with your shots",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_abstract_upgrade_leaf","path":"objects/obj_abstract_upgrade_leaf/obj_abstract_upgrade_leaf.yy",},"propertyId":{"name":"upgrade_desc","path":"objects/obj_abstract_upgrade_leaf/obj_abstract_upgrade_leaf.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Do more damage with your\\nshots",},
   ],
   "parent":{
     "name":"Cannons",

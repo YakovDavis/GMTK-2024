@@ -61,7 +61,7 @@ function get_random_point_on_circle(_cx, _cy, _r)
 }
 
 /// @function spawn_enemies(_type, _count);
-/// @param {Asset} _type
+/// @param {Asset.GMObject} _type
 /// @param {Real} _count
 /// @returns {Array<Id.Instance>}
 
