@@ -26,5 +26,3 @@ hp = max_hp;
 shield_1 = noone;
 shield_2 = noone;
 has_shields = false;
-
-event_user(3);
