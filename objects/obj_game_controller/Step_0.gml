@@ -43,6 +43,8 @@ if (global.is_game_initialized && !global.is_paused)
 		}
 		
 		current_phase_enemies = spawn_all_phase_enemies(enemy_phases_grid, current_phase);
+		
+		with (obj_space_station) event_user(4);
 	}
 }
 

@@ -23,3 +23,6 @@ resetting = true;
 rotation_speed = rotation_speed_base / station_size;
 
 hp = max_hp;
+shield_1 = noone;
+shield_2 = noone;
+has_shields = false;

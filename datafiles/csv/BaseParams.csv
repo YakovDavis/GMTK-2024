@@ -5,7 +5,7 @@ Metal usage per shot,5
 Base station rotation speed,0.0001
 Regular enemy firing delay,100
 Regular enemy bullet speed,10
-Regular enemy attack radius,50
+Regular enemy attack radius,100
 Regular enemy bullet damage,10
 Regular enemy moving speed,0.0005
 Regular enemy hp,10
@@ -21,7 +21,7 @@ Kamikaze enemy metal contents,30
 Ace enemy metal contents,40
 Ace enemy firing delay,100
 Ace enemy bullet speed,10
-Ace enemy attack radius,50
+Ace enemy attack radius,100
 Ace enemy bullet damage,10
 Ace enemy moving speed,0.0005
 Ace enemy hp,10
