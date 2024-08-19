@@ -2,6 +2,11 @@
 // Inherit the parent event
 event_inherited();
 
+max_hp = real(global.game_controller.base_params_grid[# 1, 2]);
+metal_amount = real(global.game_controller.base_params_grid[# 1, 1]);
+metal_one_shot = real(global.game_controller.base_params_grid[# 1, 3]);
+rotation_speed_base = real(global.game_controller.base_params_grid[# 1, 4]);
+
 start_station_size = metal_to_size(metal_amount) + 1;
 station_size = start_station_size;
 
