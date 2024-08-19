@@ -2,7 +2,7 @@
 // Inherit the parent event
 event_inherited();
 
-start_station_size = metal_to_size(metal_amount) + 1;
+start_station_size = metal_to_size(global.game_controller.station_metal_amount) + 1;
 station_size = start_station_size;
 
 mask_subimg = 0;
