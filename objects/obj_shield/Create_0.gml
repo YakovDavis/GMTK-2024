@@ -1,7 +1,8 @@
-max_hits = 10; //TODO add from table
+
+event_inherited();
+
+max_hits = real(global.game_controller.base_params_grid[# 1, 30]);
 
 hits_left = max_hits;
 
 is_active = true;
-
-shield_sprite = spr_test_shield;

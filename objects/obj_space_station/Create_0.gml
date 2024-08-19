@@ -6,7 +6,8 @@ max_hp = real(global.game_controller.base_params_grid[# 1, 2]);
 metal_one_shot = real(global.game_controller.base_params_grid[# 1, 3]);
 rotation_speed_base = real(global.game_controller.base_params_grid[# 1, 4]);
 
-station_size =  metal_to_size(global.game_controller.station_metal_amount);
+station_size = metal_to_size(global.game_controller.station_metal_amount);
+zoom_last_scale = station_size;
 
 mask_subimg = 0;
 next_change_mask = false;

@@ -42,6 +42,10 @@ function toggle_game_actors_visibility(_visible)
 	{
 		visible = _visible;
 	}
+	with (obj_shield)
+	{
+		visible = _visible;
+	}
 }
 
 /// @function get_random_point_on_circle(_cx, _cy, _r);

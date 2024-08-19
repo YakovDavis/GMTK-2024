@@ -78,6 +78,7 @@ cannon_vampiric_level = 0;
 cannon_extra_cannon_level = 0;
 emp_duration_increase_level = 0;
 emp_cooldown_decrease_level = 0;
+core_shields_level = 0;
 core_metal_gain_level = 0;
 core_rotation_speed_level = 0;
 
