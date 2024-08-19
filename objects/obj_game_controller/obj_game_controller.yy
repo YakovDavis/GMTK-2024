@@ -53,6 +53,7 @@
     {"$GMObjectProperty":"v1","%Name":"boss_enemy","filters":[
         "GMObject",
       ],"listItems":[],"multiselect":false,"name":"boss_enemy","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"obj_shooting_enemy","path":"objects/obj_shooting_enemy/obj_shooting_enemy.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_shooting_enemy","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"station_metal_amount","filters":[],"listItems":[],"multiselect":false,"name":"station_metal_amount","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"100","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

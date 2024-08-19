@@ -35,10 +35,10 @@ if (mouse_check_button_pressed(mb_left))
 	{
 		if (firing_delay_current <= 0)
 		{
-			if (other.metal_amount > 0)
+			if (global.game_controller.station_metal_amount > 0)
 			{
 				double_damage = false;
-				other.metal_amount -= other.metal_one_shot;
+				global.game_controller.station_metal_amount -= other.metal_one_shot;
 			}
 			else
 			{
@@ -56,10 +56,10 @@ if (mouse_check_button_pressed(mb_right))
 	{
 		if (firing_delay_current <= 0)
 		{
-			if (other.metal_amount > 0)
+			if (global.game_controller.station_metal_amount > 0)
 			{
 				double_damage = false;
-				other.metal_amount -= other.metal_one_shot;
+				global.game_controller.station_metal_amount -= other.metal_one_shot;
 			}
 			else
 			{
