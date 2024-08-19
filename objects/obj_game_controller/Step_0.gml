@@ -24,3 +24,24 @@ else if(upgrades_scroll_y < -upgrades_scroll_bottom)
 {
 	upgrades_scroll_y = lerp(upgrades_scroll_y, -upgrades_scroll_bottom, 0.1);
 }
+
+// Enemy spawning and phase switching
+if (global.is_game_initialized && !global.is_paused)
+{
+	if (current_phase_ended && current_time >= next_phase_time)
+	{
+		current_phase += 1;
+		current_phase_ended = false;
+		if (current_phase > real(enemy_phases_grid[# 10, 1]) - 1)
+		{
+			show_debug_message("[obj_game_controller] Phase is over the limit {0}, looping", real(enemy_phases_grid[# 1, 10]) - 1);
+			current_phase -= real(enemy_phases_grid[# 9, 1]) - 1;
+		}
+		if (DEBUG_MODE > 0)
+		{
+			show_debug_message("[obj_game_controller] Starting phase {0}", current_phase);
+		}
+		
+		current_phase_enemies = spawn_all_phase_enemies(enemy_phases_grid, current_phase);
+	}
+}

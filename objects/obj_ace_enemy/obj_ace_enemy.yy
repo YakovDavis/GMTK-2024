@@ -9,7 +9,7 @@
   "managed":true,
   "name":"obj_ace_enemy",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_abstract_enemy","path":"objects/obj_abstract_enemy/obj_abstract_enemy.yy",},"propertyId":{"name":"max_hp","path":"objects/obj_abstract_enemy/obj_abstract_enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"100",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":null,"propertyId":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"100",},
   ],
   "parent":{
     "name":"Objects",

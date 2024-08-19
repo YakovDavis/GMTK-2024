@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_enemy_ship_mk1",
+  "%Name":"Object48",
   "eventList":[],
   "managed":true,
-  "name":"obj_enemy_ship_mk1",
+  "name":"Object48",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"obj_abstract_enemy",
-    "path":"objects/obj_abstract_enemy/obj_abstract_enemy.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_test_enemy",
-    "path":"sprites/spr_test_enemy/spr_test_enemy.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

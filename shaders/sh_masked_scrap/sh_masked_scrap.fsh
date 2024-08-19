@@ -18,5 +18,5 @@ void main()
 	normalized_y = (normalized_y - 0.5) * u_vMaskScale.y + 0.5;
 	vec2 mask_texcoord = vec2(u_fMaskUVs[0] + normalized_x * (u_fMaskUVs[2] - u_fMaskUVs[0]),
 		u_fMaskUVs[1] + normalized_y * (u_fMaskUVs[3] - u_fMaskUVs[1]));
-    gl_FragColor = v_vColour * texture2D(u_sMask, mask_texcoord) * texture2D(gm_BaseTexture, v_vTexcoord);
+    gl_FragColor = v_vColour * texture2D(u_sMask, mask_texcoord).x * texture2D(gm_BaseTexture, v_vTexcoord);
 }

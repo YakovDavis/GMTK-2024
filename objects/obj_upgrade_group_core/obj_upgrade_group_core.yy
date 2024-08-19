@@ -8,7 +8,7 @@
   "name":"obj_upgrade_group_core",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_abstract_upgrade_group","path":"objects/obj_abstract_upgrade_group/obj_abstract_upgrade_group.yy",},"propertyId":{"name":"upgrade_group_display_name","path":"objects/obj_abstract_upgrade_group/obj_abstract_upgrade_group.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Core",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_abstract_upgrade_group","path":"objects/obj_abstract_upgrade_group/obj_abstract_upgrade_group.yy",},"propertyId":{"name":"upgrade_group_desc","path":"objects/obj_abstract_upgrade_group/obj_abstract_upgrade_group.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_abstract_upgrade_group","path":"objects/obj_abstract_upgrade_group/obj_abstract_upgrade_group.yy",},"propertyId":{"name":"upgrade_group_desc","path":"objects/obj_abstract_upgrade_group/obj_abstract_upgrade_group.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Station upgrades",},
   ],
   "parent":{
     "name":"Core",
