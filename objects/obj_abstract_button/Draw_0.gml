@@ -5,7 +5,7 @@ if (render_text)
 {
 	draw_set_valign(fa_middle);
 	draw_set_halign(fa_center);
-	draw_set_font(fnt_title); //button_font
+	draw_set_font(button_font); //button_font
 	// feather ignore once GM1044
 	draw_set_colour(focused ? button_text_color_focused : button_text_color_unfocused);
 	draw_text_ext(x, y, button_text, text_linesep, sprite_width - text_hmargins * 2);
