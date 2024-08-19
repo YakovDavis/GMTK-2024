@@ -1,0 +1,1 @@
+hp_ratio = obj_space_station.hp / obj_space_station.max_hp;
