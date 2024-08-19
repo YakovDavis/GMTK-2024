@@ -6,7 +6,7 @@
   "name":"obj_upgrade_shield_reflection",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_abstract_upgrade_leaf","path":"objects/obj_abstract_upgrade_leaf/obj_abstract_upgrade_leaf.yy",},"propertyId":{"name":"upgrade_display_name","path":"objects/obj_abstract_upgrade_leaf/obj_abstract_upgrade_leaf.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Reflector effect",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_abstract_upgrade_leaf","path":"objects/obj_abstract_upgrade_leaf/obj_abstract_upgrade_leaf.yy",},"propertyId":{"name":"upgrade_desc","path":"objects/obj_abstract_upgrade_leaf/obj_abstract_upgrade_leaf.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Sometimes reflect projectiles back\\nat enemies",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_abstract_upgrade_leaf","path":"objects/obj_abstract_upgrade_leaf/obj_abstract_upgrade_leaf.yy",},"propertyId":{"name":"upgrade_desc","path":"objects/obj_abstract_upgrade_leaf/obj_abstract_upgrade_leaf.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Sometimes reflect projectiles\\nback at enemies",},
   ],
   "parent":{
     "name":"Shields",

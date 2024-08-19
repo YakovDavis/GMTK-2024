@@ -39,7 +39,7 @@
     {"$GMObjectProperty":"v1","%Name":"slider_text_hoffset","filters":[],"listItems":[],"multiselect":false,"name":"slider_text_hoffset","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-50","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"slider_text_font","filters":[
         "GMFont",
-      ],"listItems":[],"multiselect":false,"name":"slider_text_font","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"fnt_buttons","path":"fonts/fnt_buttons/fnt_buttons.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"fnt_buttons","varType":5,},
+      ],"listItems":[],"multiselect":false,"name":"slider_text_font","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"fnt_text","path":"fonts/fnt_text/fnt_text.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"fnt_text","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

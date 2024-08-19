@@ -59,5 +59,21 @@ boss_present = false;
 current_phase_ended = false;
 next_phase_time = current_time;
 
+// Upgrade levels vars
+shield_radius_increase_level = 0;
+shield_hit_absorption_level = 0;
+shield_reflector_level = 0;
+cannon_damage_increase_level = 0;
+cannon_shotgun_level = 0;
+cannon_homing_level = 0;
+cannon_vampiric_level = 0;
+emp_duration_increase_level = 0;
+emp_cooldown_decrease_level = 0;
+core_metal_gain_level = 0;
+core_rotation_speed_level = 0;
+
 // Load .csv files
 enemy_phases_grid = load_csv("csv/EnemyPhases.csv");
+base_params_grid = load_csv("csv/BaseParams.csv");
+upgrade_params_grid = load_csv("csv/UpgradeParams.csv");
+upgrade_prices_grid = load_csv("csv/UpgradePrices.csv");

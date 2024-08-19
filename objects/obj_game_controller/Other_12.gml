@@ -4,9 +4,16 @@ var _index = 0;
 
 while (_index < array_length(current_phase_enemies))
 {
-	if (current_phase_enemies[_index].hp <= 0)
+	if (instance_exists(current_phase_enemies[_index]))
 	{
-		array_delete(current_phase_enemies, _index, 1);
+		if (current_phase_enemies[_index].hp <= 0)
+		{
+			array_delete(current_phase_enemies, _index, 1);
+		}
+		else
+		{
+			_index += 1;
+		}
 	}
 	else
 	{

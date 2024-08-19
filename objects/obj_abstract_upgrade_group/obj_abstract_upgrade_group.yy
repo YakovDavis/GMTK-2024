@@ -36,15 +36,15 @@
     {"$GMObjectProperty":"v1","%Name":"upgrade_group_display_name","filters":[],"listItems":[],"multiselect":false,"name":"upgrade_group_display_name","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Upgrade group (change me)","varType":2,},
     {"$GMObjectProperty":"v1","%Name":"display_name_font","filters":[
         "GMFont",
-      ],"listItems":[],"multiselect":false,"name":"display_name_font","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"fnt_buttons","path":"fonts/fnt_buttons/fnt_buttons.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"fnt_buttons","varType":5,},
+      ],"listItems":[],"multiselect":false,"name":"display_name_font","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"fnt_text","path":"fonts/fnt_text/fnt_text.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"fnt_text","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"display_name_text_color","filters":[],"listItems":[],"multiselect":false,"name":"display_name_text_color","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"$FF000000","varType":7,},
     {"$GMObjectProperty":"v1","%Name":"upgrade_group_desc","filters":[],"listItems":[],"multiselect":false,"name":"upgrade_group_desc","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Upgrade group desc (change me)","varType":2,},
     {"$GMObjectProperty":"v1","%Name":"desc_font","filters":[
         "GMFont",
-      ],"listItems":[],"multiselect":false,"name":"desc_font","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"fnt_buttons","path":"fonts/fnt_buttons/fnt_buttons.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"fnt_buttons","varType":5,},
+      ],"listItems":[],"multiselect":false,"name":"desc_font","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"fnt_text","path":"fonts/fnt_text/fnt_text.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"fnt_text","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"desc_color","filters":[],"listItems":[],"multiselect":false,"name":"desc_color","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"$FF000000","varType":7,},
     {"$GMObjectProperty":"v1","%Name":"text_hmargin","filters":[],"listItems":[],"multiselect":false,"name":"text_hmargin","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"80","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"text_vmargin","filters":[],"listItems":[],"multiselect":false,"name":"text_vmargin","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"15","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"text_vmargin","filters":[],"listItems":[],"multiselect":false,"name":"text_vmargin","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"10","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

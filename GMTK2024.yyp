@@ -39,7 +39,10 @@
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"BaseParams.csv","CopyToMask":-1,"filePath":"datafiles/csv","name":"BaseParams.csv","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"EnemyPhases.csv","CopyToMask":-1,"filePath":"datafiles/csv","name":"EnemyPhases.csv","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"UpgradeParams.csv","CopyToMask":-1,"filePath":"datafiles/csv","name":"UpgradeParams.csv","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"UpgradePrices.csv","CopyToMask":-1,"filePath":"datafiles/csv","name":"UpgradePrices.csv","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
   "isEcma":false,
   "LibraryEmitters":[],
@@ -49,7 +52,9 @@
   "name":"GMTK2024",
   "resources":[
     {"id":{"name":"ac_camera_zoom","path":"animcurves/ac_camera_zoom/ac_camera_zoom.yy",},},
-    {"id":{"name":"fnt_buttons","path":"fonts/fnt_buttons/fnt_buttons.yy",},},
+    {"id":{"name":"fnt_test_buttons","path":"fonts/fnt_test_buttons/fnt_test_buttons.yy",},},
+    {"id":{"name":"fnt_text","path":"fonts/fnt_text/fnt_text.yy",},},
+    {"id":{"name":"fnt_title","path":"fonts/fnt_title/fnt_title.yy",},},
     {"id":{"name":"obj_abstract_bullet","path":"objects/obj_abstract_bullet/obj_abstract_bullet.yy",},},
     {"id":{"name":"obj_abstract_button","path":"objects/obj_abstract_button/obj_abstract_button.yy",},},
     {"id":{"name":"obj_abstract_enemy","path":"objects/obj_abstract_enemy/obj_abstract_enemy.yy",},},

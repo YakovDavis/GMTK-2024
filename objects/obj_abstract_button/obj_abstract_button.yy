@@ -34,7 +34,7 @@
     {"$GMObjectProperty":"v1","%Name":"button_text","filters":[],"listItems":[],"multiselect":false,"name":"button_text","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Button","varType":2,},
     {"$GMObjectProperty":"v1","%Name":"button_font","filters":[
         "GMFont",
-      ],"listItems":[],"multiselect":false,"name":"button_font","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"fnt_buttons","path":"fonts/fnt_buttons/fnt_buttons.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"fnt_buttons","varType":5,},
+      ],"listItems":[],"multiselect":false,"name":"button_font","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"fnt_text","path":"fonts/fnt_text/fnt_text.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"fnt_text","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"button_text_color_unfocused","filters":[],"listItems":[],"multiselect":false,"name":"button_text_color_unfocused","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"$FFFFFFFF","varType":7,},
     {"$GMObjectProperty":"v1","%Name":"button_text_color_focused","filters":[],"listItems":[],"multiselect":false,"name":"button_text_color_focused","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"$FFCCCCCC","varType":7,},
     {"$GMObjectProperty":"v1","%Name":"text_hmargins","filters":[],"listItems":[],"multiselect":false,"name":"text_hmargins","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"10","varType":0,},

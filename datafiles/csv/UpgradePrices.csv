@@ -1,0 +1,7 @@
+,Shields,,,Cannons,,,,EMP,,Core,
+Level,Radius increase,Hit absorption,Reflector,Damage increase,Shotgun damage,Homing,Vampiric,Duration increase,Cooldown decrease,More metal,Rotation speed increase
+Count,3,3,3,4,3,3,3,3,3,3,3
+1,100,100,100,100,100,100,100,100,100,100,100
+2,200,200,200,200,200,200,200,200,200,200,200
+3,300,300,300,300,300,300,300,300,300,300,300
+4,-,-,-,400,-,-,-,-,-,-,-

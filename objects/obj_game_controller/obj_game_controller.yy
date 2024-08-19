@@ -36,8 +36,6 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"base_width","filters":[],"listItems":[],"multiselect":false,"name":"base_width","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"960","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"base_height","filters":[],"listItems":[],"multiselect":false,"name":"base_height","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"540","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"settings_filename","filters":[],"listItems":[],"multiselect":false,"name":"settings_filename","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"UserSettings.ini","varType":2,},
     {"$GMObjectProperty":"v1","%Name":"scroll_drag","filters":[],"listItems":[],"multiselect":false,"name":"scroll_drag","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.9","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"upgrades_vmargin","filters":[],"listItems":[],"multiselect":false,"name":"upgrades_vmargin","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"100","varType":0,},
