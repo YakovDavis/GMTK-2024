@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_blank_button",
-    "path":"sprites/spr_blank_button/spr_blank_button.yy",
+    "name":"spr_color_button",
+    "path":"sprites/spr_color_button/spr_color_button.yy",
   },
   "spriteMaskId":null,
   "visible":true,
