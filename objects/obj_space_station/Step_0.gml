@@ -60,6 +60,7 @@ if (!global.on_button)
 				event_user(1);
 			}	
 		}
+		event_user(1);
 	}
 	
 	if (mouse_check_button_pressed(mb_right))
@@ -81,5 +82,6 @@ if (!global.on_button)
 				event_user(1);
 			}
 		}
+		event_user(1);
 	}
 }
