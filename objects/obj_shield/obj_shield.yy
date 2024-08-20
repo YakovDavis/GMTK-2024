@@ -34,16 +34,16 @@
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"level0_sprite","filters":[
         "GMSprite",
-      ],"listItems":[],"multiselect":false,"name":"level0_sprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_test_shield0","path":"sprites/spr_test_shield0/spr_test_shield0.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_test_shield0","varType":5,},
+      ],"listItems":[],"multiselect":false,"name":"level0_sprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_shield_part0","path":"sprites/spr_shield_part0/spr_shield_part0.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_shield_part0","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"level1_sprite","filters":[
         "GMSprite",
-      ],"listItems":[],"multiselect":false,"name":"level1_sprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_test_shield1","path":"sprites/spr_test_shield1/spr_test_shield1.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_test_shield1","varType":5,},
+      ],"listItems":[],"multiselect":false,"name":"level1_sprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_shield_part1","path":"sprites/spr_shield_part1/spr_shield_part1.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_shield_part1","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"level2_sprite","filters":[
         "GMSprite",
-      ],"listItems":[],"multiselect":false,"name":"level2_sprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_test_shield2","path":"sprites/spr_test_shield2/spr_test_shield2.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_test_shield2","varType":5,},
+      ],"listItems":[],"multiselect":false,"name":"level2_sprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_shield_part2","path":"sprites/spr_shield_part2/spr_shield_part2.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_shield_part2","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"level3_sprite","filters":[
         "GMSprite",
-      ],"listItems":[],"multiselect":false,"name":"level3_sprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_test_shield3","path":"sprites/spr_test_shield3/spr_test_shield3.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_test_shield3","varType":5,},
+      ],"listItems":[],"multiselect":false,"name":"level3_sprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_shield_part3","path":"sprites/spr_shield_part3/spr_shield_part3.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_shield_part3","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"sound_deactivate","filters":[],"listItems":[],"multiselect":false,"name":"sound_deactivate","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"snd_shield_deactivated","path":"sounds/snd_shield_deactivated/snd_shield_deactivated.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"snd_shield_deactivated","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"sound_restore","filters":[],"listItems":[],"multiselect":false,"name":"sound_restore","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"snd_shield_restore","path":"sounds/snd_shield_restore/snd_shield_restore.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"snd_shield_restore","varType":5,},
   ],
@@ -51,8 +51,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_test_shield0",
-    "path":"sprites/spr_test_shield0/spr_test_shield0.yy",
+    "name":"spr_shield_part0",
+    "path":"sprites/spr_shield_part0/spr_shield_part0.yy",
   },
   "spriteMaskId":null,
   "visible":true,

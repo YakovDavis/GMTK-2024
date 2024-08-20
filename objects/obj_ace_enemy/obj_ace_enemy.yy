@@ -19,7 +19,7 @@
     "name":"obj_shooting_enemy",
     "path":"objects/obj_shooting_enemy/obj_shooting_enemy.yy",
   },
-  "persistent":false,
+  "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
