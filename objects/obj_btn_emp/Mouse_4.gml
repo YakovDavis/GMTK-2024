@@ -1,4 +1,6 @@
 
+event_inherited();
+
 if (!global.game_controller.emp_cooldown_active)
 {
 	if (global.game_controller.station_metal_amount >= emp_cost)
