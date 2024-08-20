@@ -10,3 +10,5 @@ if (global.game_controller.cannon_homing_level > 0)
 }
 base_homing_speed = 0.0001;
 homing_threshold = 10;
+
+audio_play_sound(sound_bullet,100,false, global.sfx_volume * global.master_volume);

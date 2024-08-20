@@ -34,6 +34,7 @@
     {"$GMObjectProperty":"v1","%Name":"sound_bullet","filters":[
         "GMSound",
       ],"listItems":[],"multiselect":false,"name":"sound_bullet","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"snd_enemy_shoot","path":"sounds/snd_enemy_shoot/snd_enemy_shoot.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"snd_enemy_shoot","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"sound_damage_metal","filters":[],"listItems":[],"multiselect":false,"name":"sound_damage_metal","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"snd_player_damaged_metal","path":"sounds/snd_player_damaged_metal/snd_player_damaged_metal.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"snd_player_damaged_metal","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
