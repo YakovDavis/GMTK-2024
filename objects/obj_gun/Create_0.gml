@@ -13,7 +13,7 @@ is_shotgun = false;
 vampiric_fraction = 0;
 homing_strength = 0;
 
-is_red = false
+is_red = false;
 
 base_damage = real(global.game_controller.base_params_grid[# 1, 14])
 damage = base_damage;

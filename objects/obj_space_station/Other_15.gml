@@ -8,6 +8,7 @@ if (!has_2_gun)
 		
 		gun_2 = instance_create_layer(x + lengthdir_x(_dist, -gun_rotation), y + lengthdir_y(_dist, -gun_rotation), "Guns", obj_gun);
 		gun_2.is_red = true;
+		gun_2.current_scale = current_scale;
 	}
 	has_2_gun = true;
 }
