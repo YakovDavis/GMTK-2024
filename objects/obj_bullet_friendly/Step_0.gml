@@ -10,10 +10,13 @@ event_inherited();
 if (homing_strength > 0)
 {
 	var _nearest_enemy = instance_nearest(x, y, obj_abstract_enemy);
-	var _angle_to_enemy = point_direction(x, y, _nearest_enemy.x, _nearest_enemy.y) - direction;
-	if (abs(_angle_to_enemy) >= homing_threshold)
+	if (_nearest_enemy)
 	{
-		direction += sign(_angle_to_enemy) * homing_strength * base_homing_speed * delta_time;
+		var _angle_to_enemy = point_direction(x, y, _nearest_enemy.x, _nearest_enemy.y) - direction;
+		if (abs(_angle_to_enemy) >= homing_threshold)
+		{
+			direction += sign(_angle_to_enemy) * homing_strength * base_homing_speed * delta_time;
+		}
 	}
 }
 
