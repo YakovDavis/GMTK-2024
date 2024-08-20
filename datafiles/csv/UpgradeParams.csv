@@ -1,7 +1,7 @@
 ,Shields,,,Cannons,,,,EMP,,Core,
 Level,Radius increase - %,Hit absorption - attacks blocked,Reflector - reflect chance %,Damage increase - %,Shotgun damage - %,Homing - force,Vampiric - steal %,Duration increase - +s,Cooldown decrease - %,More metal - %,Rotation speed increase - %
 Count,3,3,3,4,3,3,3,3,3,3,3
-1,10,15,15,25,50,1,10,2,10,10,10
-2,20,20,20,50,75,2,20,3,20,20,20
-3,50,25,30,75,100,3,30,4,50,50,50
+1,10,15,15,25,50,1,10,3,20,20,10
+2,20,20,20,50,75,2,20,5,35,40,20
+3,50,25,30,75,100,3,30,8,50,60,30
 4,-,-,-,100,-,-,-,-,-,-,-

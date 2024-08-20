@@ -14,7 +14,7 @@ Kamikaze enemy moving speed,0.0005
 Kamikaze enemy hp,1
 Gun base damage,3
 Gun firing delay,10
-Gun bullet speed,10
+Gun bullet speed,12
 Shotgun cone half-angle,15
 Regular enemy metal contents,40
 Kamikaze enemy metal contents,60
@@ -34,7 +34,7 @@ Boss turret bullet speed,10
 Boss enemy attack radius,300
 Boss turret bullet damage,10
 Boss turret hp,6
-Boss turret metal contents,0
+Boss turret metal contents,40
 Boss turret destruction damage,10
 Boss enemy hp,50
 Boss enemy metal contents,200

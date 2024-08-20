@@ -29,6 +29,8 @@ width = base_width;
 height = base_height;
 
 // Setup sound settings
+global.sfx_emitter = audio_emitter_create();
+global.bgm_emitter = audio_emitter_create();
 global.master_volume = 1.0;
 global.sfx_volume = 1.0;
 global.music_volume = 1.0;
@@ -44,6 +46,8 @@ else
 {
 	event_user(0);
 }
+audio_emitter_gain(global.sfx_emitter, global.master_volume * global.sfx_volume);
+audio_emitter_gain(global.bgm_emitter, global.master_volume * global.music_volume);
 
 // Setup UI vars
 global.on_button = false;
