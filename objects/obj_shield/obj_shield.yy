@@ -3,8 +3,9 @@
   "%Name":"obj_shield",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":11,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":12,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_shield",
@@ -13,8 +14,11 @@
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
-  "persistent":false,
+  "parentObjectId":{
+    "name":"obj_abstract_scalable",
+    "path":"objects/obj_abstract_scalable/obj_abstract_scalable.yy",
+  },
+  "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -27,13 +31,26 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"level0_sprite","filters":[
+        "GMSprite",
+      ],"listItems":[],"multiselect":false,"name":"level0_sprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_test_shield0","path":"sprites/spr_test_shield0/spr_test_shield0.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_test_shield0","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"level1_sprite","filters":[
+        "GMSprite",
+      ],"listItems":[],"multiselect":false,"name":"level1_sprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_test_shield1","path":"sprites/spr_test_shield1/spr_test_shield1.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_test_shield1","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"level2_sprite","filters":[
+        "GMSprite",
+      ],"listItems":[],"multiselect":false,"name":"level2_sprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_test_shield2","path":"sprites/spr_test_shield2/spr_test_shield2.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_test_shield2","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"level3_sprite","filters":[
+        "GMSprite",
+      ],"listItems":[],"multiselect":false,"name":"level3_sprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_test_shield3","path":"sprites/spr_test_shield3/spr_test_shield3.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_test_shield3","varType":5,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_test_shield",
-    "path":"sprites/spr_test_shield/spr_test_shield.yy",
+    "name":"spr_test_shield0",
+    "path":"sprites/spr_test_shield0/spr_test_shield0.yy",
   },
   "spriteMaskId":null,
   "visible":true,

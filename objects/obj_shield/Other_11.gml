@@ -1,8 +1,7 @@
-/// @description Reset shield
+/// @description Take damage
 
-hits_left = max_hits;
-if (!is_active)
+hits_left--;
+if (hits_left <= 0)
 {
-	sprite_index = shield_sprite;
-	is_active = true;
+	is_active = false;
 }

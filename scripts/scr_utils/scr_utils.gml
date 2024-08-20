@@ -42,6 +42,10 @@ function toggle_game_actors_visibility(_visible)
 	{
 		visible = _visible;
 	}
+	with (obj_shield)
+	{
+		visible = _visible;
+	}
 }
 
 /// @function get_random_point_on_circle(_cx, _cy, _r);
@@ -113,5 +117,21 @@ function emp_toggle(_enable)
 	with (obj_abstract_enemy)
 	{
 		is_emp_ed = _enable;
+	}
+}
+
+/// @function update_zoom_percentage();
+/// @returns {Any}
+
+function update_zoom_percentage()
+{
+	var _current_size = 0;
+	with (obj_space_station)
+	{
+		_current_size = sprite_width *station_size * current_scale;
+	}
+	with (obj_game_controller)
+	{
+		zoom_percent = 100 * (1 - _current_size / desired_station_size) / 2;
 	}
 }

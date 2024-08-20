@@ -21,12 +21,15 @@ if (resetting)
 {
 	if (gun_rotation > 360) gun_rotation -= 360;
 	else if (gun_rotation < 0) gun_rotation += 360;
-	gun_1.rotation = gun_rotation;
-	gun_1.x = x + lengthdir_x(sprite_width * 0.5 * station_size + orbit_margin, gun_rotation);
-	gun_1.y = y + lengthdir_y(sprite_width * 0.5 * station_size + orbit_margin, gun_rotation);
-	gun_2.rotation = gun_rotation + 180;
-	gun_2.x = x + lengthdir_x(sprite_width * 0.5 * station_size + orbit_margin, gun_rotation + 180);
-	gun_2.y = y + lengthdir_y(sprite_width * 0.5 * station_size + orbit_margin, gun_rotation + 180);
+	gun_1.rotation = gun_rotation + 180;
+	gun_1.x = x + lengthdir_x(sprite_width * 0.5 * station_size + orbit_margin, gun_rotation + 180);
+	gun_1.y = y + lengthdir_y(sprite_width * 0.5 * station_size + orbit_margin, gun_rotation + 180);
+	if (has_2_gun)
+	{
+		gun_2.rotation = gun_rotation;
+		gun_2.x = x + lengthdir_x(sprite_width * 0.5 * station_size + orbit_margin, gun_rotation);
+		gun_2.y = y + lengthdir_y(sprite_width * 0.5 * station_size + orbit_margin, gun_rotation);
+	}
 	if (has_shields)
 	{
 		shield_1.image_angle = gun_rotation + 90;
@@ -41,7 +44,7 @@ if (resetting)
 
 if (!global.on_button)
 {
-	if (mouse_check_button_pressed(mb_left))
+	if (has_2_gun && mouse_check_button_pressed(mb_right))
 	{
 		with (gun_2)
 		{
@@ -63,7 +66,7 @@ if (!global.on_button)
 		event_user(1);
 	}
 	
-	if (mouse_check_button_pressed(mb_right))
+	if (mouse_check_button_pressed(mb_left))
 	{
 		with (gun_1)
 		{

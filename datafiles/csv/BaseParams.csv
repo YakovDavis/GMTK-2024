@@ -28,3 +28,4 @@ Ace enemy hp,10
 EMP cost,50
 EMP base duration,2000
 EMP base cooldown,10000
+Shield base max hits,10

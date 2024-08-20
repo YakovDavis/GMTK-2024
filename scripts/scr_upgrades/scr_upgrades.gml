@@ -29,5 +29,35 @@ function apply_all_upgrades()
 		{
 			rotation_speed *= 1 + 0.01 * real(global.game_controller.upgrade_params_grid[# 11, global.game_controller.cannon_shotgun_level + 2]);
 		}
+		if (!has_shields && global.game_controller.core_shields_level > 0)
+		{
+			event_user(3);
+		}
+		if (!has_2_gun && global.game_controller.cannon_extra_cannon_level > 0)
+		{
+			event_user(5);
+		}
+	}
+	with (obj_shield)
+	{
+		if (global.game_controller.shield_hit_absorption_level > 0)
+		{
+			max_hits = real(global.game_controller.upgrade_params_grid[# 2, global.game_controller.cannon_shotgun_level + 2]);
+		}
+		switch (global.game_controller.shield_radius_increase_level)
+		{
+			case 0:
+				sprite_index = level0_sprite;
+				break;
+			case 1:
+				sprite_index = level1_sprite;
+				break;
+			case 2:
+				sprite_index = level2_sprite;
+				break;
+			case 3:
+				sprite_index = level3_sprite;
+				break;
+		}
 	}
 }
