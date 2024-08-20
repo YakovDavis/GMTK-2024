@@ -2,7 +2,7 @@
 
 if (hp < 0)
 {
-	//game_over
+	room_goto(rm_game_over);
 }
 else
 {
