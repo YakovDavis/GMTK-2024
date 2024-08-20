@@ -13,7 +13,7 @@ metal_content = base_metal_content;
 
 if (global.game_controller.core_metal_gain_level > 0)
 {
-	metal_content *= 1 + 0.01 * real(global.game_controller.upgrade_params_grid[# 10, core_metal_gain_level + 2]);
+	metal_content *= 1 + 0.01 * real(global.game_controller.upgrade_params_grid[# 10, global.game_controller.core_metal_gain_level + 2]);
 }
 
 start_delay = 0;
