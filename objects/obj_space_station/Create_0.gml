@@ -28,5 +28,8 @@ shield_1 = noone;
 shield_2 = noone;
 has_shields = false;
 
+// TEST: Boss
+//instance_create_layer(0, 0, "Instances", obj_boss_enemy);
+
 update_zoom_percentage();
 zoom_camera();

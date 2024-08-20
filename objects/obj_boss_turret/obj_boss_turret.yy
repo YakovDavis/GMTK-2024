@@ -9,7 +9,7 @@
   "managed":true,
   "name":"obj_boss_turret",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_abstract_enemy","path":"objects/obj_abstract_enemy/obj_abstract_enemy.yy",},"propertyId":{"name":"destroyed_vfx","path":"objects/obj_abstract_enemy/obj_abstract_enemy.yy",},"resource":{"name":"obj_particles_ship_destroyed_no_metal","path":"objects/obj_particles_ship_destroyed_no_metal/obj_particles_ship_destroyed_no_metal.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"obj_particles_ship_destroyed_no_metal",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_abstract_enemy","path":"objects/obj_abstract_enemy/obj_abstract_enemy.yy",},"propertyId":{"name":"destroyed_vfx","path":"objects/obj_abstract_enemy/obj_abstract_enemy.yy",},"resource":{"name":"obj_particles_ship_destroyed","path":"objects/obj_particles_ship_destroyed/obj_particles_ship_destroyed.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"obj_particles_ship_destroyed",},
   ],
   "parent":{
     "name":"Objects",
@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_test_boss_turret",
-    "path":"sprites/spr_test_boss_turret/spr_test_boss_turret.yy",
+    "name":"spr_gun_both_75_130",
+    "path":"sprites/spr_gun_both_75_130/spr_gun_both_75_130.yy",
   },
   "spriteMaskId":null,
   "visible":true,

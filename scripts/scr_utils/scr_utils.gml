@@ -136,3 +136,13 @@ function update_zoom_percentage()
 		zoom_percent = 100 * (1 - _current_size / desired_station_size) / 4;
 	}
 }
+
+/// @function estimate_lifetime_gravity_distance(_gravity, _distance);
+/// @param {Real} _gravity
+/// @param {Real} _distance
+/// @returns {Real}
+
+function estimate_lifetime_gravity_distance(_gravity, _distance)
+{
+	return sqrt(abs(_distance / _gravity)) * 1.2;
+}

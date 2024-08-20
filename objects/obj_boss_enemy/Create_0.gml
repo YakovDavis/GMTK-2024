@@ -3,6 +3,8 @@
 
 audio_play_sound(sound_alert,100,false);
 
+image_index = round(random_range(0, sprite_get_number(sprite_index) - 1));
+
 damage = 0;
 firing_delay = 0;
 firing_speed = 0;

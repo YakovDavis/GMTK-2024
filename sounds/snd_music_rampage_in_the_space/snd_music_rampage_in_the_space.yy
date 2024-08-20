@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"snd_music_rampage_in_the_space.mp3",
   "type":0,
-  "volume":1.0,
+  "volume":0.42,
 }

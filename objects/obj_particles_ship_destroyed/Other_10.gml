@@ -22,26 +22,28 @@ part_type_orientation(_first_particle,0,359,15,0,true);
 part_type_life(_first_particle,100,150);
 part_type_blend(_first_particle,true);
 
-//metal
-var _metal_particle = part_type_create();
-part_type_shape(_metal_particle,pt_shape_disk);
-part_type_size(_metal_particle,0.20,0.20,-.001,0);
-part_type_scale(_metal_particle,1.5,1.5);
-
-part_type_color1(_metal_particle,8421504);
-//part_type_alpha2(_metal_particle,1,0.75);
-part_type_speed(_metal_particle,0.3,0.5,0,0);
-part_type_direction(_metal_particle,0,359,0,0);
-
-part_type_gravity(_metal_particle,0.25,gravity_dir);
-
-part_type_orientation(_metal_particle,0,359,15,0,true);
-part_type_life(_metal_particle,20,25);
-//part_type_blend(_metal_particle,true);
-
-
-//metal after fire
-part_type_death(_first_particle,1,_metal_particle);
+if (has_metal)
+{
+	//metal
+	var _metal_particle = part_type_create();
+	part_type_shape(_metal_particle,pt_shape_disk);
+	part_type_size(_metal_particle,0.20,0.20,-.001,0);
+	part_type_scale(_metal_particle,1.5,1.5);
+	
+	part_type_color1(_metal_particle,8421504);
+	//part_type_alpha2(_metal_particle,1,0.75);
+	part_type_speed(_metal_particle,0.3,0.5,0,0);
+	part_type_direction(_metal_particle,0,359,0,0);
+	
+	part_type_gravity(_metal_particle,gravity_strength,gravity_dir);
+	
+	part_type_orientation(_metal_particle,0,359,15,0,true);
+	part_type_life(_metal_particle, metal_lifetime_avg - metal_lifetime_sigma, metal_lifetime_avg + metal_lifetime_sigma);
+	//part_type_blend(_metal_particle,true);
+	
+	//metal after fire
+	part_type_death(_first_particle,1,_metal_particle);
+}
 
 
 //emitter
