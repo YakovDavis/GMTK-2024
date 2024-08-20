@@ -42,8 +42,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_ace_enemy",
-    "path":"sprites/spr_ace_enemy/spr_ace_enemy.yy",
+    "name":"spr_ship_red_420_450",
+    "path":"sprites/spr_ship_red_420_450/spr_ship_red_420_450.yy",
   },
   "spriteMaskId":null,
   "visible":true,

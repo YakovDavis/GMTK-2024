@@ -4,11 +4,12 @@
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":11,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_kamikaze_enemy",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_abstract_enemy","path":"objects/obj_abstract_enemy/obj_abstract_enemy.yy",},"propertyId":{"name":"destroyed_vfx","path":"objects/obj_abstract_enemy/obj_abstract_enemy.yy",},"resource":{"name":"obj_particles_ship_destroyed_no_metal","path":"objects/obj_particles_ship_destroyed_no_metal/obj_particles_ship_destroyed_no_metal.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"obj_particles_ship_destroyed_no_metal",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_abstract_enemy","path":"objects/obj_abstract_enemy/obj_abstract_enemy.yy",},"propertyId":{"name":"sound_death","path":"objects/obj_abstract_enemy/obj_abstract_enemy.yy",},"resource":{"name":"snd_enemy_kamikadze_die","path":"sounds/snd_enemy_kamikadze_die/snd_enemy_kamikadze_die.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"snd_enemy_kamikadze_die",},
   ],
   "parent":{
     "name":"Objects",
@@ -36,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_test_kamikaze_enemy",
-    "path":"sprites/spr_test_kamikaze_enemy/spr_test_kamikaze_enemy.yy",
+    "name":"spr_ship_red_300_380",
+    "path":"sprites/spr_ship_red_300_380/spr_ship_red_300_380.yy",
   },
   "spriteMaskId":null,
   "visible":true,

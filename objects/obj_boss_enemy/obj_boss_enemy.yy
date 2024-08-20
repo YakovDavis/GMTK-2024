@@ -5,6 +5,7 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":13,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":11,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_boss_enemy",
@@ -37,13 +38,22 @@
     {"$GMObjectProperty":"v1","%Name":"turret2_y_base","filters":[],"listItems":[],"multiselect":false,"name":"turret2_y_base","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"turret3_x_base","filters":[],"listItems":[],"multiselect":false,"name":"turret3_x_base","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"50","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"turret3_y_base","filters":[],"listItems":[],"multiselect":false,"name":"turret3_y_base","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"86","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"sound_alert","filters":[
+        "GMSound",
+      ],"listItems":[],"multiselect":false,"name":"sound_alert","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"snd_boss_alert","path":"sounds/snd_boss_alert/snd_boss_alert.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"snd_boss_alert","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"sound_music","filters":[
+        "GMSound",
+      ],"listItems":[],"multiselect":false,"name":"sound_music","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"snd_music_rampage_in_the_space","path":"sounds/snd_music_rampage_in_the_space/snd_music_rampage_in_the_space.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"snd_music_rampage_in_the_space","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"sound_boss_death","filters":[
+        "GMSound",
+      ],"listItems":[],"multiselect":false,"name":"sound_boss_death","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"snd_boss_death","path":"sounds/snd_boss_death/snd_boss_death.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"snd_boss_death","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_test_boss",
-    "path":"sprites/spr_test_boss/spr_test_boss.yy",
+    "name":"spr_boss_4",
+    "path":"sprites/spr_boss_4/spr_boss_4.yy",
   },
   "spriteMaskId":null,
   "visible":true,
