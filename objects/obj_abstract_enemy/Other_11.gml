@@ -1,4 +1,6 @@
 /// @description On death event
+audio_play_sound(sound_death,100,false);
+ 
 
 with (obj_game_controller)
 {
