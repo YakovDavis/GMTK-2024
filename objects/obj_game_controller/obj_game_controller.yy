@@ -52,10 +52,10 @@
       ],"listItems":[],"multiselect":false,"name":"kamikaze_enemy","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"obj_kamikaze_enemy","path":"objects/obj_kamikaze_enemy/obj_kamikaze_enemy.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_kamikaze_enemy","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"ace_enemy","filters":[
         "GMObject",
-      ],"listItems":[],"multiselect":false,"name":"ace_enemy","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"obj_shooting_enemy","path":"objects/obj_shooting_enemy/obj_shooting_enemy.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_shooting_enemy","varType":5,},
+      ],"listItems":[],"multiselect":false,"name":"ace_enemy","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"obj_ace_enemy","path":"objects/obj_ace_enemy/obj_ace_enemy.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_ace_enemy","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"boss_enemy","filters":[
         "GMObject",
-      ],"listItems":[],"multiselect":false,"name":"boss_enemy","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"obj_shooting_enemy","path":"objects/obj_shooting_enemy/obj_shooting_enemy.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_shooting_enemy","varType":5,},
+      ],"listItems":[],"multiselect":false,"name":"boss_enemy","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"obj_boss_enemy","path":"objects/obj_boss_enemy/obj_boss_enemy.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_boss_enemy","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"desired_station_size","filters":[],"listItems":[],"multiselect":false,"name":"desired_station_size","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"200","varType":0,},
   ],
   "resourceType":"GMObject",
