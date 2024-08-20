@@ -78,6 +78,7 @@ function spawn_enemies(_type, _count)
 	{
 		var _coords = get_random_point_on_circle(_station_x, _station_y, ship_spawn_radius);
 		_res[_i] = instance_create_layer(_coords[0], _coords[1], "Instances", _type);
+		_res[_i].start_delay = random_range(0, global.game_controller.enemy_max_delay);
 	}
 	return _res;
 }

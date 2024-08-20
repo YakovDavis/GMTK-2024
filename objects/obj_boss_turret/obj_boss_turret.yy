@@ -8,7 +8,9 @@
   ],
   "managed":true,
   "name":"obj_boss_turret",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_abstract_enemy","path":"objects/obj_abstract_enemy/obj_abstract_enemy.yy",},"propertyId":{"name":"destroyed_vfx","path":"objects/obj_abstract_enemy/obj_abstract_enemy.yy",},"resource":{"name":"obj_particles_ship_destroyed_no_metal","path":"objects/obj_particles_ship_destroyed_no_metal/obj_particles_ship_destroyed_no_metal.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"obj_particles_ship_destroyed_no_metal",},
+  ],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",

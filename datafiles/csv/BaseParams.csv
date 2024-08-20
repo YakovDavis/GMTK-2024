@@ -2,7 +2,7 @@ Parameter name,Parameter value
 Starting metal amount,100
 Max station hp,1000
 Metal usage per shot,5
-Base station rotation speed,0.0001
+Base station rotation speed,0.0011
 Regular enemy firing delay,100
 Regular enemy bullet speed,10
 Regular enemy attack radius,100
@@ -39,3 +39,4 @@ Boss turret destruction damage,10
 Boss enemy hp,50
 Boss enemy metal contents,200
 Boss enemy movement speed,0.0005
+Enemy max delay in phase,2000
