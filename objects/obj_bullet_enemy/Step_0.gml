@@ -40,6 +40,7 @@ if (_hit_shield)
 if (place_meeting(x + lengthdir_x(speed, image_angle),
 y + lengthdir_y(speed, image_angle), obj_space_station))
 {
+	audio_play_sound(sound_damage_metal,100,false, global.sfx_volume * global.master_volume);
 	with(obj_space_station)
 	{
 		if (global.game_controller.station_metal_amount > 0)

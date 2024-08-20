@@ -1,5 +1,5 @@
 /// @description On death event
-audio_play_sound(sound_death,100,false);
+audio_play_sound(sound_death,100,false,global.sfx_volume * global.master_volume);
 
 var _vfx = instance_create_layer(x, y, "VFX", destroyed_vfx);
 _vfx.gravity_dir = image_angle;

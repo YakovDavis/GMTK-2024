@@ -44,6 +44,8 @@
     {"$GMObjectProperty":"v1","%Name":"level3_sprite","filters":[
         "GMSprite",
       ],"listItems":[],"multiselect":false,"name":"level3_sprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_test_shield3","path":"sprites/spr_test_shield3/spr_test_shield3.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_test_shield3","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"sound_deactivate","filters":[],"listItems":[],"multiselect":false,"name":"sound_deactivate","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"snd_shield_deactivated","path":"sounds/snd_shield_deactivated/snd_shield_deactivated.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"snd_shield_deactivated","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"sound_restore","filters":[],"listItems":[],"multiselect":false,"name":"sound_restore","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"snd_shield_restore","path":"sounds/snd_shield_restore/snd_shield_restore.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"snd_shield_restore","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

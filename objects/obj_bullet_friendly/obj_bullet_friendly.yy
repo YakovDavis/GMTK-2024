@@ -29,7 +29,9 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"sound_bullet","filters":[],"listItems":[],"multiselect":false,"name":"sound_bullet","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"snd_player_shoot","path":"sounds/snd_player_shoot/snd_player_shoot.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"snd_player_shoot","varType":5,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
