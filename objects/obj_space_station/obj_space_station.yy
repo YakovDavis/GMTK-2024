@@ -42,7 +42,8 @@
       ],"listItems":[],"multiselect":false,"name":"scrap_texture","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_scrap_pile","path":"sprites/spr_scrap_pile/spr_scrap_pile.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_scrap_pile","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"scrap_masks_texture","filters":[
         "GMSprite",
-      ],"listItems":[],"multiselect":false,"name":"scrap_masks_texture","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_scrap_masks","path":"sprites/spr_scrap_masks/spr_scrap_masks.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_scrap_masks","varType":5,},
+      ],"listItems":[],"multiselect":false,"name":"scrap_masks_texture","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_mask","path":"sprites/spr_mask/spr_mask.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_mask","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"start_station_size","filters":[],"listItems":[],"multiselect":false,"name":"start_station_size","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"2","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"orbit_margin","filters":[],"listItems":[],"multiselect":false,"name":"orbit_margin","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"40","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"zoom_out_at","filters":[],"listItems":[],"multiselect":false,"name":"zoom_out_at","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.2","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"zoom_in_at","filters":[],"listItems":[],"multiselect":false,"name":"zoom_in_at","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.2","varType":0,},
@@ -52,8 +53,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_test_scalable",
-    "path":"sprites/spr_test_scalable/spr_test_scalable.yy",
+    "name":"spr_station_ok",
+    "path":"sprites/spr_station_ok/spr_station_ok.yy",
   },
   "spriteMaskId":null,
   "visible":true,
