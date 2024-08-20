@@ -1,7 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-audio_play_sound(sound_alert, 100, false, global.sfx_volume * global.master_volume);
+//audio_play_sound(sound_alert, 100, false, global.sfx_volume * global.master_volume);
+audio_play_sound_on(global.sfx_emitter, sound_alert, false, 100);
 
 image_index = round(random_range(0, sprite_get_number(sprite_index) - 1));
 
@@ -26,7 +27,9 @@ turret_1 = instance_create_layer(x + turret1_x_base, y + turret1_y_base, "Guns",
 turret_2 = instance_create_layer(x + turret2_x_base, y + turret2_y_base, "Guns", obj_boss_turret);
 turret_3 = instance_create_layer(x + turret3_x_base, y + turret3_y_base, "Guns", obj_boss_turret);
 
-audio_play_sound(sound_music, 100, true, global.sfx_volume * global.master_volume);
+//audio_play_sound(sound_music, 100, true, global.sfx_volume * global.master_volume);
+audio_stop_sound(global.game_controller.music_game);
+audio_play_sound_on(global.bgm_emitter, sound_music, true, 100);
 
 // Inherit the parent event
 event_inherited();

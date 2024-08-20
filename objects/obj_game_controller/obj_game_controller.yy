@@ -57,6 +57,8 @@
         "GMObject",
       ],"listItems":[],"multiselect":false,"name":"boss_enemy","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"obj_boss_enemy","path":"objects/obj_boss_enemy/obj_boss_enemy.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_boss_enemy","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"desired_station_size","filters":[],"listItems":[],"multiselect":false,"name":"desired_station_size","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"200","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"music_menu","filters":[],"listItems":[],"multiselect":false,"name":"music_menu","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"snd_music_cloud","path":"sounds/snd_music_cloud/snd_music_cloud.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"snd_music_cloud","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"music_game","filters":[],"listItems":[],"multiselect":false,"name":"music_game","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"snd_music_metal_wanderer","path":"sounds/snd_music_metal_wanderer/snd_music_metal_wanderer.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"snd_music_metal_wanderer","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
