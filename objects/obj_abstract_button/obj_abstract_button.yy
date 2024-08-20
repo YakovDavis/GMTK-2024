@@ -42,7 +42,7 @@
     {"$GMObjectProperty":"v1","%Name":"is_disabled","filters":[],"listItems":[],"multiselect":false,"name":"is_disabled","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"button_sound","filters":[
         "GMSound",
-      ],"listItems":[],"multiselect":false,"name":"button_sound","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
+      ],"listItems":[],"multiselect":false,"name":"button_sound","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"snd_ui_press","path":"sounds/snd_ui_press/snd_ui_press.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"snd_ui_press","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

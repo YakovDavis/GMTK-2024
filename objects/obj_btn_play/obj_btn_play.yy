@@ -8,6 +8,7 @@
   "name":"obj_btn_play",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_abstract_button","path":"objects/obj_abstract_button/obj_abstract_button.yy",},"propertyId":{"name":"button_text","path":"objects/obj_abstract_button/obj_abstract_button.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Play",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_abstract_button","path":"objects/obj_abstract_button/obj_abstract_button.yy",},"propertyId":{"name":"button_sound","path":"objects/obj_abstract_button/obj_abstract_button.yy",},"resource":{"name":"snd_ui_game_start","path":"sounds/snd_ui_game_start/snd_ui_game_start.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"snd_ui_game_start",},
   ],
   "parent":{
     "name":"Buttons",
