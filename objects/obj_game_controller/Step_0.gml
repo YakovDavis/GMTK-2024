@@ -32,7 +32,7 @@ if (global.is_game_initialized && !global.is_paused)
 	{
 		current_phase += 1;
 		current_phase_ended = false;
-		if (current_phase > real(enemy_phases_grid[# 10, 1]) - 1)
+		if (current_phase > real(enemy_phases_grid[# 10, 1]) - 2)
 		{
 			show_debug_message("[obj_game_controller] Phase is over the limit {0}, looping", real(enemy_phases_grid[# 1, 10]) - 1);
 			current_phase -= real(enemy_phases_grid[# 9, 1]) - 1;
