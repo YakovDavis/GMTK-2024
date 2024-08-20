@@ -40,6 +40,9 @@
     {"$GMObjectProperty":"v1","%Name":"sound_death","filters":[
         "GMSound",
       ],"listItems":[],"multiselect":false,"name":"sound_death","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"snd_enemy_die","path":"sounds/snd_enemy_die/snd_enemy_die.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"snd_enemy_die","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"destroyed_vfx","filters":[
+        "GMObject",
+      ],"listItems":[],"multiselect":false,"name":"destroyed_vfx","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"obj_particles_ship_destroyed","path":"objects/obj_particles_ship_destroyed/obj_particles_ship_destroyed.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_particles_ship_destroyed","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

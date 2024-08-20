@@ -6,6 +6,7 @@ next_phase_time = current_time + real(enemy_phases_grid[# 8, 1]) * 1000;
 emp_active = false;
 
 station_metal_amount = real(global.game_controller.base_params_grid[# 1, 1]);
+enemy_max_delay = real(global.game_controller.base_params_grid[# 1, 41]);
 
 shield_radius_increase_level = 0;
 shield_hit_absorption_level = 0;
