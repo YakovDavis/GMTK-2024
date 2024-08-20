@@ -2,7 +2,7 @@
 next_zoom_in = false;
 currently_zooming = false;
 curve_posx = 0;
-current_scale = 1;
+current_scale = 0.6;
 prev_scale = 1;
 next_scale = 1.2;
 

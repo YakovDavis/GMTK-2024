@@ -132,6 +132,6 @@ function update_zoom_percentage()
 	}
 	with (obj_game_controller)
 	{
-		zoom_percent = 100 * (1 - _current_size / desired_station_size) / 2;
+		zoom_percent = 100 * (1 - _current_size / desired_station_size) / 4;
 	}
 }

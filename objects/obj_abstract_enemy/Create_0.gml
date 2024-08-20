@@ -18,3 +18,5 @@ if (global.game_controller.core_metal_gain_level > 0)
 
 start_delay = 3000;
 is_waiting = true;
+
+current_scale = obj_space_station.current_scale;

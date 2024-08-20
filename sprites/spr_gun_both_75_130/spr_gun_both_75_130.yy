@@ -43,7 +43,7 @@
     ],
     "top":0,
   },
-  "origin":4,
+  "origin":3,
   "parent":{
     "name":"Guns",
     "path":"folders/Sprites/Guns.yy",
@@ -98,7 +98,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":65,
+    "xorigin":0,
     "yorigin":37,
   },
   "swatchColours":null,

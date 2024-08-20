@@ -2,5 +2,5 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function metal_to_size(_metal)
 {
-	return sqrt(_metal) / 10 + 1;
+	return sqrt(clamp(_metal, 0, 1500)) / 10 + 1;
 }

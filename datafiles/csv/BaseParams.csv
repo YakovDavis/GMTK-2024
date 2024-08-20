@@ -31,10 +31,11 @@ EMP base cooldown,10000
 Shield base max hits,10
 Boss turret firing delay,100
 Boss turret bullet speed,10
-Boss turret attack radius,100
+Boss enemy attack radius,300
 Boss turret bullet damage,10
 Boss turret hp,10
 Boss turret metal contents,0
 Boss turret destruction damage,10
 Boss enemy hp,50
 Boss enemy metal contents,200
+Boss enemy movement speed,0.0005

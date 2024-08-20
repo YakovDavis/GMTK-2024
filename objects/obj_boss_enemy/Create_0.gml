@@ -1,13 +1,14 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-damage = real(global.game_controller.base_params_grid[# 1, 8]);
-firing_delay = real(global.game_controller.base_params_grid[# 1, 5]);
-firing_speed = real(global.game_controller.base_params_grid[# 1, 6]);
-attack_radius = real(global.game_controller.base_params_grid[# 1, 7]);
-moving_speed = real(global.game_controller.base_params_grid[# 1, 9]);
-max_hp = real(global.game_controller.base_params_grid[# 1, 10]);
-base_metal_content = real(global.game_controller.base_params_grid[# 1, 18]);
+damage = 0;
+firing_delay = 0;
+firing_speed = 0;
+attack_radius = real(global.game_controller.base_params_grid[# 1, 33]);
+moving_speed = real(global.game_controller.base_params_grid[# 1, 40]);
+max_hp = real(global.game_controller.base_params_grid[# 1, 38]);
+base_metal_content = real(global.game_controller.base_params_grid[# 1, 39]);
+damage_from_turret_destruction = real(global.game_controller.base_params_grid[# 1, 37]);
 
 turret_1_dist = point_distance(0, 0, turret1_x_base, turret1_y_base);
 turret_2_dist = point_distance(0, 0, turret2_x_base, turret2_y_base);
