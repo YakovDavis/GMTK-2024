@@ -40,6 +40,9 @@
     {"$GMObjectProperty":"v1","%Name":"text_hmargins","filters":[],"listItems":[],"multiselect":false,"name":"text_hmargins","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"10","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"text_linesep","filters":[],"listItems":[],"multiselect":false,"name":"text_linesep","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"25","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"is_disabled","filters":[],"listItems":[],"multiselect":false,"name":"is_disabled","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"button_sound","filters":[
+        "GMSound",
+      ],"listItems":[],"multiselect":false,"name":"button_sound","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

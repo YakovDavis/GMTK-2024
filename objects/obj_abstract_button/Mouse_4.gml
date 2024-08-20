@@ -1,3 +1,3 @@
-/// @description Button action (override!)
+/// @description Button action (inherit!)
 
-show_debug_message("Button pressed (override me)");
+//audio_play_sound(button_sound);

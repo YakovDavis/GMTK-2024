@@ -1,3 +1,4 @@
+
 if (global.is_paused)
 {
 	return;
@@ -6,27 +7,14 @@ if (global.is_paused)
 // Inherit the parent event
 event_inherited();
 
-if (is_waiting)
-{
-	return;
-}
-
 if (is_emp_ed)
 {
 	return;
 }
 
-if (point_distance(x, y, obj_space_station.x, obj_space_station.y) >= attack_radius + obj_space_station.sprite_width * obj_space_station.station_size * obj_space_station.current_scale * 0.5 && is_moving) 
-{
-	x += lengthdir_x(moving_speed * delta_time, attack_angle);
-	y += lengthdir_y(moving_speed * delta_time, attack_angle);
-}
-else
-{
-	is_moving = false;
-}
+image_angle = point_direction(x, y, obj_space_station.x, obj_space_station.y);
 
-if (!is_moving)
+if (is_active)
 {
 	firing_delay_current = max(0, firing_delay_current - 1);
 
@@ -42,4 +30,3 @@ if (!is_moving)
 		firing_delay_current = firing_delay;
 	}
 }
-
