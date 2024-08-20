@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+audio_play_sound(sound_alert,100,false);
+
 damage = 0;
 firing_delay = 0;
 firing_speed = 0;
@@ -21,6 +23,8 @@ turret_3_dir = point_direction(0, 0, turret3_x_base, turret3_y_base);
 turret_1 = instance_create_layer(x + turret1_x_base, y + turret1_y_base, "Guns", obj_boss_turret);
 turret_2 = instance_create_layer(x + turret2_x_base, y + turret2_y_base, "Guns", obj_boss_turret);
 turret_3 = instance_create_layer(x + turret3_x_base, y + turret3_y_base, "Guns", obj_boss_turret);
+
+audio_play_sound(sound_music,100,true);
 
 // Inherit the parent event
 event_inherited();
