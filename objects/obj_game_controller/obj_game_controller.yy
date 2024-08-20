@@ -16,6 +16,7 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":13,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":107,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":109,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_game_controller",
@@ -59,6 +60,9 @@
     {"$GMObjectProperty":"v1","%Name":"desired_station_size","filters":[],"listItems":[],"multiselect":false,"name":"desired_station_size","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"200","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"music_menu","filters":[],"listItems":[],"multiselect":false,"name":"music_menu","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"snd_music_cloud","path":"sounds/snd_music_cloud/snd_music_cloud.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"snd_music_cloud","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"music_game","filters":[],"listItems":[],"multiselect":false,"name":"music_game","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"snd_music_metal_wanderer","path":"sounds/snd_music_metal_wanderer/snd_music_metal_wanderer.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"snd_music_metal_wanderer","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"metal_collect_sound","filters":[
+        "GMSound",
+      ],"listItems":[],"multiselect":false,"name":"metal_collect_sound","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"snd_metal_collect","path":"sounds/snd_metal_collect/snd_metal_collect.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"snd_metal_collect","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
