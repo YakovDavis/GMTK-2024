@@ -92,7 +92,7 @@ function spawn_all_phase_enemies(_csv, _phase)
 {
 	var _regular_enemy_count = round(random_range(real(global.game_controller.enemy_phases_grid[# 1, current_phase + 1]), real(global.game_controller.enemy_phases_grid[# 2, current_phase + 1])));
 	var _kamikaze_count = round(random_range(real(global.game_controller.enemy_phases_grid[# 3, current_phase + 1]), real(global.game_controller.enemy_phases_grid[# 4, current_phase + 1])));
-	var _ace_count = 4; //round(random_range(real(global.game_controller.enemy_phases_grid[# 5, current_phase + 1]), real(global.game_controller.enemy_phases_grid[# 6, current_phase + 1])));
+	var _ace_count = round(random_range(real(global.game_controller.enemy_phases_grid[# 5, current_phase + 1]), real(global.game_controller.enemy_phases_grid[# 6, current_phase + 1])));
 	var _boss_count = real(global.game_controller.enemy_phases_grid[# 7, current_phase + 1]);
 		
 	if (DEBUG_MODE > 0)
