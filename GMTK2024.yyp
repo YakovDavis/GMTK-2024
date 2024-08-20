@@ -92,6 +92,7 @@
     {"id":{"name":"obj_kamikaze_enemy","path":"objects/obj_kamikaze_enemy/obj_kamikaze_enemy.yy",},},
     {"id":{"name":"obj_metal_counter","path":"objects/obj_metal_counter/obj_metal_counter.yy",},},
     {"id":{"name":"obj_particles_ship_destroyed","path":"objects/obj_particles_ship_destroyed/obj_particles_ship_destroyed.yy",},},
+    {"id":{"name":"obj_phase_counter","path":"objects/obj_phase_counter/obj_phase_counter.yy",},},
     {"id":{"name":"obj_shield","path":"objects/obj_shield/obj_shield.yy",},},
     {"id":{"name":"obj_shooting_enemy","path":"objects/obj_shooting_enemy/obj_shooting_enemy.yy",},},
     {"id":{"name":"obj_slider_master_volume","path":"objects/obj_slider_master_volume/obj_slider_master_volume.yy",},},
