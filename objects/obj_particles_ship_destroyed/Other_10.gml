@@ -12,21 +12,22 @@ part_system_depth(_ps_fire_blast,0);
 var _first_particle = part_type_create();
 part_type_shape(_first_particle,pt_shape_explosion);
 part_type_scale(_first_particle,2,2);
-part_type_size(_first_particle,0.15,0.20,-.001,0);
+part_type_size(_first_particle,0.35,0.40,-.001,0);
 part_type_color2(_first_particle,255,65535);
 part_type_alpha2(_first_particle,1,0.75);
 part_type_speed(_first_particle,0.1,0.5,0,0);
 part_type_direction(_first_particle,0,359,0,0);
 //part_type_gravity(_first_particle,0.02,90);
 part_type_orientation(_first_particle,0,359,15,0,true);
-part_type_life(_first_particle,100,150);
+part_type_life(_first_particle,60,80);
 part_type_blend(_first_particle,true);
 
 if (has_metal)
 {
 	//metal
 	var _metal_particle = part_type_create();
-	part_type_shape(_metal_particle,pt_shape_disk);
+	//part_type_shape(_metal_particle,pt_shape_disk);
+	part_type_sprite(_metal_particle,spr_garbage_particles,false,false,false);
 	part_type_size(_metal_particle,0.20,0.20,-.001,0);
 	part_type_scale(_metal_particle,1.5,1.5);
 	
