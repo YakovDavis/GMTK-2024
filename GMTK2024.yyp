@@ -155,6 +155,7 @@
     {"id":{"name":"spr_blank_button_1","path":"sprites/spr_blank_button_1/spr_blank_button_1.yy",},},
     {"id":{"name":"spr_blank_button","path":"sprites/spr_blank_button/spr_blank_button.yy",},},
     {"id":{"name":"spr_boss_4","path":"sprites/spr_boss_4/spr_boss_4.yy",},},
+    {"id":{"name":"spr_boss_bar","path":"sprites/spr_boss_bar/spr_boss_bar.yy",},},
     {"id":{"name":"spr_gun_blue_150_260","path":"sprites/spr_gun_blue_150_260/spr_gun_blue_150_260.yy",},},
     {"id":{"name":"spr_gun_both_75_130","path":"sprites/spr_gun_both_75_130/spr_gun_both_75_130.yy",},},
     {"id":{"name":"spr_hp_background","path":"sprites/spr_hp_background/spr_hp_background.yy",},},

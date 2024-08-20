@@ -6,6 +6,7 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":13,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":11,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_boss_enemy",
@@ -32,11 +33,11 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"turret1_x_base","filters":[],"listItems":[],"multiselect":false,"name":"turret1_x_base","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"50","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"turret1_x_base","filters":[],"listItems":[],"multiselect":false,"name":"turret1_x_base","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"10","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"turret1_y_base","filters":[],"listItems":[],"multiselect":false,"name":"turret1_y_base","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-86","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"turret2_x_base","filters":[],"listItems":[],"multiselect":false,"name":"turret2_x_base","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"100","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"turret2_x_base","filters":[],"listItems":[],"multiselect":false,"name":"turret2_x_base","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"120","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"turret2_y_base","filters":[],"listItems":[],"multiselect":false,"name":"turret2_y_base","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"turret3_x_base","filters":[],"listItems":[],"multiselect":false,"name":"turret3_x_base","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"50","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"turret3_x_base","filters":[],"listItems":[],"multiselect":false,"name":"turret3_x_base","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"10","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"turret3_y_base","filters":[],"listItems":[],"multiselect":false,"name":"turret3_y_base","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"86","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"sound_alert","filters":[
         "GMSound",
@@ -47,6 +48,12 @@
     {"$GMObjectProperty":"v1","%Name":"sound_boss_death","filters":[
         "GMSound",
       ],"listItems":[],"multiselect":false,"name":"sound_boss_death","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"snd_boss_death","path":"sounds/snd_boss_death/snd_boss_death.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"snd_boss_death","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"hp_bar_bkg_sprite","filters":[
+        "GMSprite",
+      ],"listItems":[],"multiselect":false,"name":"hp_bar_bkg_sprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_hp_background","path":"sprites/spr_hp_background/spr_hp_background.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_hp_background","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"hp_bar_sprite","filters":[
+        "GMSprite",
+      ],"listItems":[],"multiselect":false,"name":"hp_bar_sprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_boss_bar","path":"sprites/spr_boss_bar/spr_boss_bar.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_boss_bar","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
