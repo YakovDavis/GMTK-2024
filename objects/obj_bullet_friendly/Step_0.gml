@@ -32,7 +32,7 @@ if (_hit_enemy)
 			global.game_controller.station_metal_amount += _stolen_metal;
 			metal_content -= _stolen_metal;
 		}
-		hp -= damage;
+		hp -= other.damage;
 		event_user(2);
 	}
 	instance_destroy();

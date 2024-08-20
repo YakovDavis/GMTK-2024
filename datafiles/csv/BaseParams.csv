@@ -2,16 +2,16 @@ Parameter name,Parameter value
 Starting metal amount,100
 Max station hp,1000
 Metal usage per shot,5
-Base station rotation speed,0.0011
+Base station rotation speed,0.0005
 Regular enemy firing delay,100
 Regular enemy bullet speed,10
-Regular enemy attack radius,100
+Regular enemy attack radius,300
 Regular enemy bullet damage,10
 Regular enemy moving speed,0.0005
-Regular enemy hp,10
+Regular enemy hp,6
 Kamikaze enemy damage,10
 Kamikaze enemy moving speed,0.0005
-Kamikaze enemy hp,10
+Kamikaze enemy hp,1
 Gun base damage,3
 Gun firing delay,10
 Gun bullet speed,10
@@ -21,10 +21,10 @@ Kamikaze enemy metal contents,30
 Ace enemy metal contents,40
 Ace enemy firing delay,100
 Ace enemy bullet speed,10
-Ace enemy attack radius,100
+Ace enemy attack radius,400
 Ace enemy bullet damage,10
 Ace enemy moving speed,0.0005
-Ace enemy hp,10
+Ace enemy hp,9
 EMP cost,50
 EMP base duration,2000
 EMP base cooldown,10000

@@ -33,11 +33,4 @@ nested_items[3].upper_neighbor = nested_items[2];
 
 item_height += nested_items[3].item_height + upgrade_controller.item_margin;
 
-nested_items[4] = instance_create_layer(x, y, "Instances", obj_upgrade_cannons_homing);
-nested_items[4].upgrade_controller = upgrade_controller;
-nested_items[4].owner = self;
-nested_items[4].upper_neighbor = nested_items[3];
-
-item_height += nested_items[4].item_height + upgrade_controller.item_margin;
-
 // feather enable GM2016
