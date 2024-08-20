@@ -9,4 +9,13 @@ draw_sprite_ext(scrap_texture, 0, x, y, current_scale, current_scale, 0, c_white
 shader_reset();
 gpu_set_blendmode(bm_normal);
 
-draw_sprite_ext(sprite_index, 0, x, y, current_scale, current_scale, 0, c_white, 1);
+var _subimg = 0;
+if (hp < very_damaged_hp)
+{
+	_subimg = 2;
+}
+else if (hp < damaged_hp)
+{
+	_subimg = 1;
+}
+draw_sprite_ext(sprite_index, _subimg, x, y, current_scale, current_scale, 0, c_white, 1);

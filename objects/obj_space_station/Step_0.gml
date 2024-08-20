@@ -34,11 +34,11 @@ if (has_2_gun)
 if (has_shields)
 {
 	shield_1.image_angle = gun_rotation + 90;
-	shield_1.x = x + lengthdir_x(_gun_dist, gun_rotation + 90) * current_scale;
-	shield_1.y = y + lengthdir_y(_gun_dist, gun_rotation + 90) * current_scale;
+	shield_1.x = x + lengthdir_x(_gun_dist + offset_shield, gun_rotation + 90);
+	shield_1.y = y + lengthdir_y(_gun_dist + offset_shield, gun_rotation + 90);
 	shield_2.image_angle = gun_rotation + 270;
-	shield_2.x = x + lengthdir_x(_gun_dist, gun_rotation + 270) * current_scale;
-	shield_2.y = y + lengthdir_y(_gun_dist, gun_rotation + 270) * current_scale;
+	shield_2.x = x + lengthdir_x(_gun_dist + offset_shield, gun_rotation + 270);
+	shield_2.y = y + lengthdir_y(_gun_dist + offset_shield, gun_rotation + 270);
 }
 
 if (!global.on_button)

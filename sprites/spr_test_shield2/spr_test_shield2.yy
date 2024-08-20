@@ -23,7 +23,7 @@
   ],
   "name":"spr_test_shield2",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"Shields",
     "path":"folders/Sprites/Shields.yy",
@@ -75,7 +75,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":60,
+    "xorigin":43,
     "yorigin":60,
   },
   "swatchColours":null,

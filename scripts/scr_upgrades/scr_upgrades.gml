@@ -14,7 +14,7 @@ function apply_all_upgrades()
 		if (global.game_controller.cannon_shotgun_level > 0)
 		{
 			is_shotgun = true;
-			_damage_multiplier *= real(global.game_controller.upgrade_params_grid[# 5, global.game_controller.cannon_shotgun_level + 2])
+			_damage_multiplier *= 0.01 * real(global.game_controller.upgrade_params_grid[# 5, global.game_controller.cannon_shotgun_level + 2])
 		}
 		else
 		{
