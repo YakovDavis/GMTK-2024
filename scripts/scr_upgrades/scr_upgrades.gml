@@ -4,6 +4,22 @@
 
 function apply_all_upgrades()
 {
+	with (obj_space_station)
+	{
+		rotation_speed = rotation_speed_base;
+		if (global.game_controller.core_rotation_speed_level > 0)
+		{
+			rotation_speed *= 1 + 0.01 * real(global.game_controller.upgrade_params_grid[# 11, global.game_controller.cannon_shotgun_level + 2]);
+		}
+		if (!has_shields && global.game_controller.core_shields_level > 0)
+		{
+			event_user(3);
+		}
+		if (!has_2_gun && global.game_controller.cannon_extra_cannon_level > 0)
+		{
+			event_user(5);
+		}
+	}
 	with (obj_gun)
 	{
 		var _damage_multiplier = 1;
@@ -21,22 +37,6 @@ function apply_all_upgrades()
 			is_shotgun = false;
 		}
 		damage = base_damage * _damage_multiplier;
-	}
-	with (obj_space_station)
-	{
-		rotation_speed = rotation_speed_base;
-		if (global.game_controller.core_rotation_speed_level > 0)
-		{
-			rotation_speed *= 1 + 0.01 * real(global.game_controller.upgrade_params_grid[# 11, global.game_controller.cannon_shotgun_level + 2]);
-		}
-		if (!has_shields && global.game_controller.core_shields_level > 0)
-		{
-			event_user(3);
-		}
-		if (!has_2_gun && global.game_controller.cannon_extra_cannon_level > 0)
-		{
-			event_user(5);
-		}
 	}
 	with (obj_shield)
 	{
