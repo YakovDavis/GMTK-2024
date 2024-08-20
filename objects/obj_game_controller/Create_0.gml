@@ -1,5 +1,5 @@
-#macro DEBUG_MODE 1 // 0 - off, 1 - game debug options, 2 - game debug options and overlay
-#macro CHEAT_MODE true
+#macro DEBUG_MODE 0 // 0 - off, 1 - game debug options, 2 - game debug options and overlay
+#macro CHEAT_MODE false
 
 // Ensure existance of only one game controller
 if (variable_global_exists("game_controller"))
