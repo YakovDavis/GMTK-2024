@@ -61,6 +61,7 @@ global.is_paused = false;
 global.is_game_initialized = false;
 current_phase = 0;
 current_phase_enemies = [];
+display_phase = 1;
 boss_present = false;
 current_phase_ended = false;
 next_phase_time = current_time;

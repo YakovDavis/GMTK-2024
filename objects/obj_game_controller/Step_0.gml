@@ -31,6 +31,7 @@ if (global.is_game_initialized && !global.is_paused)
 	if (current_phase_ended && current_time >= next_phase_time)
 	{
 		current_phase += 1;
+		display_phase += 1;
 		current_phase_ended = false;
 		if (current_phase > real(enemy_phases_grid[# 10, 1]) - 2)
 		{
