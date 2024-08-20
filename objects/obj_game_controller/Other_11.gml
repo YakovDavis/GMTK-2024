@@ -22,6 +22,8 @@ core_shields_level = 0;
 core_metal_gain_level = 0;
 core_rotation_speed_level = 0;
 
+current_phase_enemies = [];
+
 global.is_game_initialized = true;
 
 boss_present = spawn_all_phase_enemies(enemy_phases_grid, current_phase);
