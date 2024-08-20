@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_test_kamikaze_enemy",
-    "path":"sprites/spr_test_kamikaze_enemy/spr_test_kamikaze_enemy.yy",
+    "name":"spr_ship_red_300_380",
+    "path":"sprites/spr_ship_red_300_380/spr_ship_red_300_380.yy",
   },
   "spriteMaskId":null,
   "visible":true,

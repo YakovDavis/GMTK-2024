@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_test_shooting_enemy",
-    "path":"sprites/spr_test_shooting_enemy/spr_test_shooting_enemy.yy",
+    "name":"spr_ship_blue_320_380",
+    "path":"sprites/spr_ship_blue_320_380/spr_ship_blue_320_380.yy",
   },
   "spriteMaskId":null,
   "visible":true,
