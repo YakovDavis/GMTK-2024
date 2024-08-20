@@ -7,6 +7,11 @@ if (global.is_paused)
 // Inherit the parent event
 event_inherited();
 
+if (is_waiting)
+{
+	return;
+}
+
 if (is_emp_ed)
 {
 	return;
@@ -22,10 +27,10 @@ else
 {
 	with(obj_space_station)
 	{
-		if (metal_content > 0)
+		if (global.game_controller.station_metal_amount > 0)
 		{
-			metal_content = max(metal_content - other.damage, 0);
-			station_size = metal_to_size(metal_content);
+			global.game_controller.station_metal_amount = max(global.game_controller.station_metal_amount - other.damage, 0);
+			station_size = metal_to_size(global.game_controller.station_metal_amount);
 			event_user(1);
 		}
 		else
