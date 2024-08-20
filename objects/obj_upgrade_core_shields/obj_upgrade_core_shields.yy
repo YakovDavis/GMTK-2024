@@ -9,7 +9,7 @@
   "name":"obj_upgrade_core_shields",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_abstract_upgrade_leaf","path":"objects/obj_abstract_upgrade_leaf/obj_abstract_upgrade_leaf.yy",},"propertyId":{"name":"upgrade_display_name","path":"objects/obj_abstract_upgrade_leaf/obj_abstract_upgrade_leaf.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Shields",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_abstract_upgrade_leaf","path":"objects/obj_abstract_upgrade_leaf/obj_abstract_upgrade_leaf.yy",},"propertyId":{"name":"upgrade_desc","path":"objects/obj_abstract_upgrade_leaf/obj_abstract_upgrade_leaf.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Shields protect the sides of your\\nship not covered by cannons",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_abstract_upgrade_leaf","path":"objects/obj_abstract_upgrade_leaf/obj_abstract_upgrade_leaf.yy",},"propertyId":{"name":"upgrade_desc","path":"objects/obj_abstract_upgrade_leaf/obj_abstract_upgrade_leaf.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Shields protect the sides of\\nnot covered by cannons",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_abstract_upgrade_leaf","path":"objects/obj_abstract_upgrade_leaf/obj_abstract_upgrade_leaf.yy",},"propertyId":{"name":"has_levels","path":"objects/obj_abstract_upgrade_leaf/obj_abstract_upgrade_leaf.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
   ],
   "parent":{

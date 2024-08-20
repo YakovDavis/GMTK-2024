@@ -8,7 +8,7 @@
   "name":"obj_upgrade_group_shield",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_abstract_upgrade_group","path":"objects/obj_abstract_upgrade_group/obj_abstract_upgrade_group.yy",},"propertyId":{"name":"upgrade_group_display_name","path":"objects/obj_abstract_upgrade_group/obj_abstract_upgrade_group.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Shields",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_abstract_upgrade_group","path":"objects/obj_abstract_upgrade_group/obj_abstract_upgrade_group.yy",},"propertyId":{"name":"upgrade_group_desc","path":"objects/obj_abstract_upgrade_group/obj_abstract_upgrade_group.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Shields which cover regions without cannons",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_abstract_upgrade_group","path":"objects/obj_abstract_upgrade_group/obj_abstract_upgrade_group.yy",},"propertyId":{"name":"upgrade_group_desc","path":"objects/obj_abstract_upgrade_group/obj_abstract_upgrade_group.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Shields cover regions without cannons",},
   ],
   "parent":{
     "name":"Shields",
