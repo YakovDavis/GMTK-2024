@@ -38,6 +38,8 @@ else
 			event_user(2);
 		}
 	}
+	hp = 0;
+	metal_content = 0;
 	event_user(1);
 	instance_destroy();
 }
