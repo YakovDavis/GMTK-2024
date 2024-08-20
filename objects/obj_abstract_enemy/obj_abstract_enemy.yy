@@ -37,6 +37,9 @@
     {"$GMObjectProperty":"v1","%Name":"damage","filters":[],"listItems":[],"multiselect":false,"name":"damage","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"10","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"moving_speed","filters":[],"listItems":[],"multiselect":false,"name":"moving_speed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.0005","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"base_metal_content","filters":[],"listItems":[],"multiselect":false,"name":"base_metal_content","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"20","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"sound_death","filters":[
+        "GMSound",
+      ],"listItems":[],"multiselect":false,"name":"sound_death","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"snd_enemy_die","path":"sounds/snd_enemy_die/snd_enemy_die.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"snd_enemy_die","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
