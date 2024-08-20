@@ -119,6 +119,7 @@
     {"id":{"name":"obj_upgrades_controller","path":"objects/obj_upgrades_controller/obj_upgrades_controller.yy",},},
     {"id":{"name":"ps_station_dmg","path":"particles/ps_station_dmg/ps_station_dmg.yy",},},
     {"id":{"name":"ParticalTest","path":"rooms/ParticalTest/ParticalTest.yy",},},
+    {"id":{"name":"rm_game_over","path":"rooms/rm_game_over/rm_game_over.yy",},},
     {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"id":{"name":"rm_pause","path":"rooms/rm_pause/rm_pause.yy",},},
@@ -197,6 +198,7 @@
     {"roomId":{"name":"rm_settings","path":"rooms/rm_settings/rm_settings.yy",},},
     {"roomId":{"name":"rm_pause","path":"rooms/rm_pause/rm_pause.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_game_over","path":"rooms/rm_game_over/rm_game_over.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

@@ -16,12 +16,17 @@ if (room == rm_game)
 	}
 	global.is_paused = false;
 }
-else if (room == rm_menu || room == rm_settings)
+else if (room == rm_menu || room == rm_settings || room == rm_game_over)
 {
 	if (room == rm_menu)
 	{
 		audio_stop_sound(music_game);
 		audio_play_sound_on(global.bgm_emitter, music_menu, true, 100);
+	}
+	if (room == rm_game_over)
+	{
+		audio_stop_sound(music_game);
+		audio_play_sound_on(global.sfx_emitter, sound_game_over, false, 100);
 	}
 	global.is_game_initialized = false;
 }
