@@ -23,6 +23,8 @@ gun_2 = noone; //  instance_create_layer(x + sprite_width * 0.5 * station_size +
 has_2_gun = false;
 rotation_speed = rotation_speed_base;
 
+eye = instance_create_layer(x, y, "Eye", obj_station_eye);
+
 hp = max_hp;
 shield_1 = noone;
 shield_2 = noone;

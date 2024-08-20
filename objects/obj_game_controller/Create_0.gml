@@ -73,6 +73,7 @@ emp_cooldown_timer = 0;
 emp_cooldown_duration = 1000;
 zoom_percent = 20;
 enemy_max_delay = 2000;
+pending_metal = 0;
 
 // Upgrade levels vars
 shield_radius_increase_level = 0;
