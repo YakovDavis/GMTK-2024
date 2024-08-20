@@ -168,6 +168,8 @@
     {"id":{"name":"spr_max_level","path":"sprites/spr_max_level/spr_max_level.yy",},},
     {"id":{"name":"spr_scrap_masks","path":"sprites/spr_scrap_masks/spr_scrap_masks.yy",},},
     {"id":{"name":"spr_scrap_pile","path":"sprites/spr_scrap_pile/spr_scrap_pile.yy",},},
+    {"id":{"name":"spr_shield_full","path":"sprites/spr_shield_full/spr_shield_full.yy",},},
+    {"id":{"name":"spr_shield_part","path":"sprites/spr_shield_part/spr_shield_part.yy",},},
     {"id":{"name":"spr_ship_blue_320_380","path":"sprites/spr_ship_blue_320_380/spr_ship_blue_320_380.yy",},},
     {"id":{"name":"spr_ship_blue_420_450","path":"sprites/spr_ship_blue_420_450/spr_ship_blue_420_450.yy",},},
     {"id":{"name":"spr_ship_red_300_380","path":"sprites/spr_ship_red_300_380/spr_ship_red_300_380.yy",},},
