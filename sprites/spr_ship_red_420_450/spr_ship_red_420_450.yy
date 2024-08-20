@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"spr_ship_red_420_450",
   "bboxMode":0,
-  "bbox_bottom":417,
+  "bbox_bottom":208,
   "bbox_left":0,
-  "bbox_right":449,
+  "bbox_right":224,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":420,
+  "height":210,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"3f5911f9-a6aa-42f6-9973-16a95412f8b6","blendMode":0,"displayName":"default","isLocked":false,"name":"3f5911f9-a6aa-42f6-9973-16a95412f8b6","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":450,
+  "width":225,
 }
