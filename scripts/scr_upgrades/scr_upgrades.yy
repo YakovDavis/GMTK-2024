@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_upgrade_ui",
+  "%Name":"scr_upgrades",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_upgrade_ui",
+  "name":"scr_upgrades",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

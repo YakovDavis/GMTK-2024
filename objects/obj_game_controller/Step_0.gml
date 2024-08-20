@@ -43,5 +43,36 @@ if (global.is_game_initialized && !global.is_paused)
 		}
 		
 		current_phase_enemies = spawn_all_phase_enemies(enemy_phases_grid, current_phase);
+		
+		with (obj_space_station) event_user(4);
+	}
+}
+
+if (!global.is_paused && room == rm_game)
+{
+	if (emp_active)
+	{
+		if (emp_timer >= emp_duration)
+		{
+			emp_toggle(false);
+			emp_active = false;
+			emp_cooldown_active = true;
+			emp_cooldown_timer = 0;
+		}
+		else
+		{
+			emp_timer += delta_time / 1000.0;
+		}
+	}
+	else if (emp_cooldown_active)
+	{
+		if (emp_cooldown_timer >= emp_cooldown_duration)
+		{
+			emp_cooldown_active = false;
+		}
+		else
+		{
+			emp_cooldown_timer += delta_time / 1000.0;
+		}
 	}
 }

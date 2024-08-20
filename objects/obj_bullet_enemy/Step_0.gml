@@ -7,24 +7,50 @@ if (global.is_paused)
 // Inherit the parent event
 event_inherited();
 
+var _hit_shield = instance_place(x + lengthdir_x(speed, image_angle),
+y + lengthdir_y(speed, image_angle), obj_shield);
+if (_hit_shield)
+{
+	with (_hit_shield)
+	{
+		if (is_active)
+		{
+			event_user(1);
+		}
+	}
+	if (global.game_controller.shield_reflector_level > 0)
+	{
+		var _chance = 0.01 * real(global.game_controller.upgrade_params_grid[# 3, global.game_controller.shield_reflector_level + 2]);
+		var _rnd = random_range(0, 1);
+		if (_rnd <= _chance)
+		{
+			event_user(1);
+		}
+		else
+		{
+			instance_destroy();
+		}
+	}
+	else
+	{
+		instance_destroy();
+	}
+}
+
 if (place_meeting(x + lengthdir_x(speed, image_angle),
 y + lengthdir_y(speed, image_angle), obj_space_station))
 {
 	with(obj_space_station)
 	{
-		if (metal_amount > 0)
+		if (global.game_controller.station_metal_amount > 0)
 		{
-			metal_amount = max(metal_amount - other.damage, 0);
-			station_size = metal_to_size(metal_amount);
-			event_user(1);
+			global.game_controller.station_metal_amount = max(global.game_controller.station_metal_amount - other.damage, 0);
+			event_user(2);
 		}
 		else
 		{
 			hp -= other.damage;
-			if (hp <= 0)
-			{
-				//game over
-			}
+			event_user(2);
 		}
 	}
 	instance_destroy();

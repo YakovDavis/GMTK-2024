@@ -110,7 +110,7 @@
     "9647":{"character":9647,"h":34,"offset":5,"shift":26,"w":16,"x":2,"y":182,},
   },
   "hinting":0,
-  "includeTTF":false,
+  "includeTTF":true,
   "interpreter":0,
   "italic":false,
   "kerningPairs":[],
@@ -138,6 +138,6 @@
     "name":"Default",
     "path":"texturegroups/Default",
   },
-  "TTFName":"",
+  "TTFName":"E:\\Library\\Documents\\GameMakerStudio2\\GMTK2024\\fonts\\fnt_text\\Rajdhani-SemiBold.ttf",
   "usesSDF":false,
 }

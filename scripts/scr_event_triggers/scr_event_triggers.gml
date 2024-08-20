@@ -1,12 +1,11 @@
-/// @function zoom_camera(_in);
-/// @param {Bool} _in Zoom in or out
+/// @function zoom_camera();
 /// @returns {Any}
 
-function zoom_camera(_in)
+function zoom_camera()
 {
 	with (obj_abstract_scalable)
 	{
-		next_zoom_in = _in;
+		next_zoom_in = global.game_controller.zoom_percent > 0;
 		event_user(0);
 	}
 }

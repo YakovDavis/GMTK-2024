@@ -42,6 +42,10 @@ function toggle_game_actors_visibility(_visible)
 	{
 		visible = _visible;
 	}
+	with (obj_shield)
+	{
+		visible = _visible;
+	}
 }
 
 /// @function get_random_point_on_circle(_cx, _cy, _r);
@@ -85,10 +89,10 @@ function spawn_enemies(_type, _count)
 
 function spawn_all_phase_enemies(_csv, _phase)
 {
-	var _regular_enemy_count = round(random_range(real(enemy_phases_grid[# 1, current_phase + 1]), real(enemy_phases_grid[# 2, current_phase + 1])));
-	var _kamikaze_count = round(random_range(real(enemy_phases_grid[# 3, current_phase + 1]), real(enemy_phases_grid[# 4, current_phase + 1])));
-	var _ace_count = round(random_range(real(enemy_phases_grid[# 5, current_phase + 1]), real(enemy_phases_grid[# 6, current_phase + 1])));
-	var _boss_count = real(enemy_phases_grid[# 7, current_phase + 1]);
+	var _regular_enemy_count = round(random_range(real(global.game_controller.enemy_phases_grid[# 1, current_phase + 1]), real(global.game_controller.enemy_phases_grid[# 2, current_phase + 1])));
+	var _kamikaze_count = round(random_range(real(global.game_controller.enemy_phases_grid[# 3, current_phase + 1]), real(global.game_controller.enemy_phases_grid[# 4, current_phase + 1])));
+	var _ace_count = round(random_range(real(global.game_controller.enemy_phases_grid[# 5, current_phase + 1]), real(global.game_controller.enemy_phases_grid[# 6, current_phase + 1])));
+	var _boss_count = real(global.game_controller.enemy_phases_grid[# 7, current_phase + 1]);
 		
 	if (DEBUG_MODE > 0)
 	{
@@ -102,4 +106,32 @@ function spawn_all_phase_enemies(_csv, _phase)
 	_res = array_concat(_res, spawn_enemies(global.game_controller.boss_enemy, _boss_count));
 	
 	return _res;
+}
+
+/// @function emp_toggle(_enable);
+/// @param {Bool} _enable
+/// @returns {Any}
+
+function emp_toggle(_enable)
+{
+	with (obj_abstract_enemy)
+	{
+		is_emp_ed = _enable;
+	}
+}
+
+/// @function update_zoom_percentage();
+/// @returns {Any}
+
+function update_zoom_percentage()
+{
+	var _current_size = 0;
+	with (obj_space_station)
+	{
+		_current_size = sprite_width *station_size * current_scale;
+	}
+	with (obj_game_controller)
+	{
+		zoom_percent = 100 * (1 - _current_size / desired_station_size) / 2;
+	}
 }

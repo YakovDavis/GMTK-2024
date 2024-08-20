@@ -1,14 +1,17 @@
 {
   "$GMObject":"",
   "%Name":"obj_upgrade_cannons_extra",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":11,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":12,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_upgrade_cannons_extra",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_abstract_upgrade_leaf","path":"objects/obj_abstract_upgrade_leaf/obj_abstract_upgrade_leaf.yy",},"propertyId":{"name":"upgrade_display_name","path":"objects/obj_abstract_upgrade_leaf/obj_abstract_upgrade_leaf.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Extra cannon",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_abstract_upgrade_leaf","path":"objects/obj_abstract_upgrade_leaf/obj_abstract_upgrade_leaf.yy",},"propertyId":{"name":"upgrade_desc","path":"objects/obj_abstract_upgrade_leaf/obj_abstract_upgrade_leaf.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Add an extra cannon",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_abstract_upgrade_leaf","path":"objects/obj_abstract_upgrade_leaf/obj_abstract_upgrade_leaf.yy",},"propertyId":{"name":"has_levels","path":"objects/obj_abstract_upgrade_leaf/obj_abstract_upgrade_leaf.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_abstract_upgrade_leaf","path":"objects/obj_abstract_upgrade_leaf/obj_abstract_upgrade_leaf.yy",},"propertyId":{"name":"is_max_level","path":"objects/obj_abstract_upgrade_leaf/obj_abstract_upgrade_leaf.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_abstract_upgrade_leaf","path":"objects/obj_abstract_upgrade_leaf/obj_abstract_upgrade_leaf.yy",},"propertyId":{"name":"is_max_level","path":"objects/obj_abstract_upgrade_leaf/obj_abstract_upgrade_leaf.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
   ],
   "parent":{
     "name":"Cannons",

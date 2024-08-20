@@ -32,7 +32,6 @@
     {"$GMObjectProperty":"v1","%Name":"zoom_curve","filters":[
         "GMAnimCurve",
       ],"listItems":[],"multiselect":false,"name":"zoom_curve","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"ac_camera_zoom","path":"animcurves/ac_camera_zoom/ac_camera_zoom.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"ac_camera_zoom","varType":5,},
-    {"$GMObjectProperty":"v1","%Name":"zoom_percent","filters":[],"listItems":[],"multiselect":false,"name":"zoom_percent","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"20","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"zoom_speed","filters":[],"listItems":[],"multiselect":false,"name":"zoom_speed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.000001","varType":0,},
   ],
   "resourceType":"GMObject",

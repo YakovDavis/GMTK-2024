@@ -1,6 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
-
 
 if (global.is_paused)
 {
@@ -9,6 +6,16 @@ if (global.is_paused)
 
 // Inherit the parent event
 event_inherited();
+
+if (is_waiting)
+{
+	return;
+}
+
+if (is_emp_ed)
+{
+	return;
+}
 
 if (!place_meeting(x + lengthdir_x(moving_speed * delta_time, image_angle),
 y + lengthdir_y(moving_speed * delta_time, image_angle), obj_space_station))
@@ -20,10 +27,10 @@ else
 {
 	with(obj_space_station)
 	{
-		if (metal_amount > 0)
+		if (global.game_controller.station_metal_amount > 0)
 		{
-			metal_amount = max(metal_amount - other.damage, 0);
-			station_size = metal_to_size(metal_amount);
+			global.game_controller.station_metal_amount = max(global.game_controller.station_metal_amount - other.damage, 0);
+			station_size = metal_to_size(global.game_controller.station_metal_amount);
 			event_user(1);
 		}
 		else

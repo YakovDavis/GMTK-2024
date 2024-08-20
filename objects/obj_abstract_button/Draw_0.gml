@@ -1,5 +1,8 @@
 
-draw_sprite(sprite_index, clamp((focused ? 0 : 1), 0, sprite_get_number(sprite_index) - 1), x, y);
+var _subimg = is_disabled ? 2 : (focused ? 0 : 1);
+_subimg = min(_subimg, sprite_get_number(sprite_index) - 1);
+
+draw_sprite(sprite_index, _subimg, x, y);
 
 if (render_text)
 {
